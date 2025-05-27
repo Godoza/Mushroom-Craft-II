@@ -1,25 +1,70 @@
-Core and Library Mods:
-1. architectury-9.2.14-forge.jar
-2. balm-forge-1.20.1-7.3.30-all.jar
-3. blueprint-1.20.1-7.1.3.jar
-4. botarium-forge-1.20.1-2.3.4.jar
-5. Bookshelf-Forge-1.20.1-20.2.13.jar
-6. citadel-2.6.1-1.20.1.jar
-7. cloth-config-11.1.136-forge.jar
-8. collective-1.20.1-8.3.jar
-9. cosmos-library-1.20.1-10.6.0.0-universal.jar
-10. cristellib-1.1.6-forge.jar
-11. framework-forge-1.20.1-0.7.15.jar
-12. geckolib-forge-1.20.1-4.7.1.2.jar
-13. JamLib-forge-1.3.5+1.20.1.jar
-14. KotlinForForge-4.11.0-all.jar
-15. LibX-1.20.1-5.0.12.jar
-16. Moonlight-1.20-2.14.1-forge.jar
-17. Patchouli-1.20.1-84.1-FORGE.jar
-18. Placebo-1.20.1-8.6.3.jar
-19. PuzzlesLib-v8.1.32-1.20.1-Forge.jar
-20. resourcefulconfig-forge-1.20.1-2.1.3.jar
-21. resourcefullib-forge-1.20.1-2.1.29.jar
-22. Rhino-forge-2001.2.3-build.10.jar
-23. TerraBlender-forge-1.20.1-3.0.1.10.jar
-24. Txnilib-forge-1.0.24-1.20.1.jar
+Core Libraries/Dependencies
+Architectury
+
+
+Balm
+
+
+Bookshelf
+
+
+Blueprint
+
+
+Citadel
+
+
+Cloth Config
+
+
+Cosmos Library
+
+
+Curios
+
+
+GeckoLib
+
+
+JamLib
+
+
+Kambrik
+
+
+KubeJS
+
+
+KotlinForForge
+
+
+LibX
+
+
+Majrusz Library
+
+
+ModNameTooltip
+
+
+OpenLoader
+
+
+Puzzles Lib
+
+
+Resourceful Lib
+
+
+ServerCore
+
+
+SuperMartijn642 Config Lib
+
+
+Txnilib
+
+
+Usclib
+
+
