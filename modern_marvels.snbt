@@ -1,0 +1,893 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modern_marvels"
+	group: "7802F4E900EFEA77"
+	icon: "immersiveengineering:electron_tube"
+	id: "2D316A82902FC974"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "029209DF457F12B4"
+			ignore_reward_blocking: true
+			rewards: [{
+				auto: "disabled"
+				count: 5
+				id: "642355C3C91C7473"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "This is a big mod. Like, maybe not ATM 8 big, but like chunky. I recommend reading the guide book and wiki as the quests will not be all encompasing. Begin by crafting the guide book and the engineers crafting table."
+			tasks: [
+				{
+					id: "4991317415BE6D8A"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					id: "3FA481FB6FFE0E9E"
+					item: "immersiveengineering:craftingtable"
+					type: "item"
+				}
+			]
+			title: "You Better Get Reading!"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			dependency_requirement: "one_completed"
+			id: "1A6FE458275F54B9"
+			subtitle: "Found between layers 32 and 112, can be smelted into aluminium ingots. Mine with stone."
+			tasks: [{
+				id: "27240E4DF3D52720"
+				item: "immersiveengineering:raw_aluminum"
+				type: "item"
+			}]
+			title: "Mine Bauxite"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			dependency_requirement: "one_completed"
+			icon: "immersiveengineering:raw_lead"
+			id: "6C04BC2F1860824B"
+			subtitle: "Found between layers -32 and 80. Smelted into lead ingots, which can be used for accumulators. Mine with iron."
+			tasks: [{
+				id: "62823C66E5C9DF6A"
+				item: "immersiveengineering:raw_lead"
+				type: "item"
+			}]
+			title: "Mine Lead"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			dependency_requirement: "one_completed"
+			id: "0A288F27C8FA169C"
+			subtitle: "Found between layers -64 and -16, can serve as an alternative heat source. Mine with iron."
+			tasks: [{
+				id: "665ED40C738EFF6F"
+				item: "immersiveengineering:raw_uranium"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			dependency_requirement: "one_completed"
+			id: "672EEE549DD9AD2F"
+			subtitle: "Found between layers -64 and 24. Can be alloyed with copper to create constantan. Mine with iron. "
+			tasks: [{
+				id: "587CC1FCCD61E2B4"
+				item: "immersiveengineering:raw_nickel"
+				type: "item"
+			}]
+			title: "Mine Nickel"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			dependency_requirement: "one_completed"
+			id: "18C2B8F3D4EBD01A"
+			subtitle: "Found between layers -48 and 32, can be smelted into ingots for the electrum. Mine with iron. "
+			tasks: [{
+				id: "1155D6EF858275F8"
+				item: "immersiveengineering:raw_silver"
+				type: "item"
+			}]
+			title: "Mine Silver"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A6FE458275F54B9"]
+			id: "27ACB1089099F901"
+			tasks: [{
+				id: "13A92D53E139CC95"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C04BC2F1860824B"]
+			id: "63F0AD73E2FB8B4E"
+			tasks: [{
+				id: "20CFBFE57DD2ED49"
+				item: "immersiveengineering:ingot_lead"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["672EEE549DD9AD2F"]
+			id: "620D0FCDCA7A8C43"
+			tasks: [{
+				id: "0218D69C9FF03E6A"
+				item: "immersiveengineering:ingot_nickel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A288F27C8FA169C"]
+			id: "03432458D7F8B4A4"
+			tasks: [{
+				id: "320D6E4B3CF12E74"
+				item: "immersiveengineering:ingot_uranium"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["18C2B8F3D4EBD01A"]
+			id: "67A7BFD17559EB03"
+			tasks: [{
+				id: "6785FAF414AAC851"
+				item: "immersiveengineering:ingot_silver"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			id: "2FF1D4EE4A38442A"
+			tasks: [{
+				id: "21BF990CE4C60FD3"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FF1D4EE4A38442A"]
+			id: "54141D5E341C69D4"
+			tasks: [{
+				id: "25562420D144DDE7"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["67A7BFD17559EB03"]
+			id: "38E95D35EB4B9292"
+			tasks: [{
+				id: "58F4F1ACEAE15F7B"
+				item: "immersiveengineering:plate_silver"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["620D0FCDCA7A8C43"]
+			id: "64E5F03756FB293B"
+			tasks: [{
+				id: "1AEE6900E4CEF281"
+				item: "immersiveengineering:plate_nickel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27ACB1089099F901"]
+			id: "6294108B92BA25FB"
+			tasks: [{
+				id: "2E4BC6A88491BC1F"
+				item: "immersiveengineering:plate_aluminum"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["63F0AD73E2FB8B4E"]
+			id: "4C9F0B6744C7D45D"
+			tasks: [{
+				id: "741D8251C04CC369"
+				item: "immersiveengineering:plate_lead"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["54141D5E341C69D4"]
+			id: "21B3CCE560E7C44D"
+			tasks: [{
+				id: "09003828F31E2F6B"
+				item: "immersiveengineering:plate_copper"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			id: "4C38F42E1664337B"
+			subtitle: "Can be found by breaking tall grass, its fibers are very important!! "
+			tasks: [{
+				id: "4C05EBF3921201C0"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			title: "Industrial Hemp Seed"
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C38F42E1664337B"]
+			id: "0CDB948A7C808748"
+			subtitle: "Extracted from the hemp seed, this fiber is used to make tough fabric!"
+			tasks: [{
+				id: "56B47A65F57FFA8B"
+				item: "immersiveengineering:hemp_fiber"
+				type: "item"
+			}]
+			title: "Industrial Hemp Fiber"
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CDB948A7C808748"]
+			id: "771135E1F41F9339"
+			tasks: [{
+				id: "75A0E0E1B46F32A2"
+				item: "immersiveengineering:wirecoil_structure_rope"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0CDB948A7C808748"]
+			id: "495CC961E46E23C6"
+			tasks: [{
+				id: "16B6B82381251434"
+				item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0CDB948A7C808748"]
+			id: "487682B58B55CB27"
+			tasks: [{
+				id: "50961AD08C0C5BDC"
+				item: "immersiveengineering:hempcrete"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0CDB948A7C808748"]
+			id: "4F3DF2C0E2D332D7"
+			tasks: [{
+				id: "219818C0B44EFA29"
+				item: "immersiveengineering:gunpowder_barrel"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0CDB948A7C808748"]
+			id: "4A9A87306951A7DE"
+			tasks: [{
+				id: "030C83A3A450749D"
+				item: "immersiveengineering:hemp_fabric"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A9A87306951A7DE"]
+			id: "1985932CDD50F527"
+			tasks: [{
+				id: "37378A7C37D3FBD0"
+				item: {
+					Count: 1
+					id: "immersiveengineering:maintenance_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A9A87306951A7DE"]
+			id: "66880FA111F62510"
+			tasks: [{
+				id: "2B998D91A19F064F"
+				item: "immersiveengineering:wirecoil_electrum_ins"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A9A87306951A7DE"]
+			id: "4E455CD5E374B04F"
+			tasks: [{
+				id: "70ECD8DB23EADA52"
+				item: "immersiveengineering:wirecoil_copper_ins"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A9A87306951A7DE"]
+			id: "7EF352256F657E13"
+			tasks: [{
+				id: "6B180599839BE298"
+				item: {
+					Count: 1
+					id: "immersiveengineering:survey_tools"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A9A87306951A7DE"]
+			id: "5AA6D4B5C384893A"
+			tasks: [{
+				id: "54C7390E8BC23942"
+				item: "immersiveengineering:windmill_sail"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A9A87306951A7DE"]
+			id: "6B76B715E5CACFD0"
+			tasks: [{
+				id: "6C110F25F3E9B182"
+				item: "immersiveengineering:strip_curtain"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4A9A87306951A7DE"]
+			id: "033239346F5CC82E"
+			tasks: [{
+				id: "05E2683A6859A41E"
+				item: {
+					Count: 1
+					id: "immersiveengineering:glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4A9A87306951A7DE"]
+			id: "7AF9089763E3199F"
+			tasks: [{
+				id: "1179F5F74C716F24"
+				item: {
+					Count: 1
+					id: "immersiveengineering:balloon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4A9A87306951A7DE"]
+			id: "1C4728E441785E58"
+			tasks: [{
+				id: "226A6E7C934DEB43"
+				item: "immersiveengineering:cushion"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4A9A87306951A7DE"]
+			id: "3165CF18A5FDEA70"
+			tasks: [{
+				id: "26A8C59781A5E940"
+				item: "immersiveengineering:ersatz_leather"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			id: "58963190C0E4460B"
+			tasks: [{
+				id: "35A25D231A09978C"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58963190C0E4460B"]
+			id: "2D75B25CDDB43F9E"
+			subtitle: "The Coke Oven can be created by placing a 3x3x3 matrix of coke bricks and then right clicking the side of the oven you want the opening texture to activate. The coke oven requires no fuel"
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_cokeoven"
+				criterion: ""
+				id: "084C0DAF9A6456FC"
+				type: "advancement"
+			}]
+			title: "Coke Oven"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D75B25CDDB43F9E"]
+			id: "41EFA9B2470FC73C"
+			tasks: [{
+				id: "074BAEDEBF1AB05A"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["58963190C0E4460B"]
+			id: "4FE34F3F8B852F1D"
+			subtitle: "The blast oven is made exactly the same as the coke oven but with a 3x3x3 matrix of blast bricks instead and the kiss of their true hammer love. Requires high quality fuel."
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_blastfurnace"
+				criterion: ""
+				id: "76C97EA1D76DC90C"
+				type: "advancement"
+			}]
+			title: "Create the Blast Furnace"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58963190C0E4460B"]
+			id: "0527F6500D815769"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_squeezer"
+				criterion: ""
+				id: "733798BDC37FD066"
+				title: "Sq-Weezer Buddy Holly"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FE34F3F8B852F1D"]
+			id: "212B41C0C581AE88"
+			subtitle: "Create steel by smelting an iron ingot in the crude blast furnace."
+			tasks: [{
+				id: "51A00D5538D10AA6"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			id: "3CDF23668EBE2A82"
+			subtitle: "The engineer's workbench is used in tandem with blueprints to create more advanced parts. Blueprints can be purchased from villagers."
+			tasks: [{
+				id: "151C45F64D38F8B4"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			id: "759660FCA928F7D4"
+			tasks: [{
+				id: "49DEF43860839C95"
+				item: "immersiveengineering:crate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4C9F0B6744C7D45D"]
+			id: "50A9DB5AB7834685"
+			tasks: [{
+				id: "00BABFF804C4ED72"
+				item: "immersiveengineering:sheetmetal_lead"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["64E5F03756FB293B"]
+			id: "2674513FB581FEB4"
+			tasks: [{
+				id: "18084E7C5386E56A"
+				item: "immersiveengineering:sheetmetal_nickel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["21B3CCE560E7C44D"]
+			id: "529073F42FEF82DD"
+			tasks: [{
+				id: "6A1B4DD232ABBB3D"
+				item: "immersiveengineering:sheetmetal_copper"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6294108B92BA25FB"]
+			id: "29A3A25090CD0F92"
+			tasks: [{
+				id: "01FBAA543F3A1ACA"
+				item: "immersiveengineering:sheetmetal_aluminum"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["38E95D35EB4B9292"]
+			id: "3E2C75C49F4DAA67"
+			tasks: [{
+				id: "64505F13196515E5"
+				item: "immersiveengineering:sheetmetal_silver"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"29A3A25090CD0F92"
+				"529073F42FEF82DD"
+				"50A9DB5AB7834685"
+				"2674513FB581FEB4"
+				"3E2C75C49F4DAA67"
+			]
+			id: "057D35D854C1F06C"
+			tasks: [{
+				id: "431F7C80A93CBD74"
+				item: "immersiveengineering:metal_barrel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			id: "23A7465E875FCB1E"
+			subtitle: "Cheap building block that gives slag an recyclable use"
+			tasks: [{
+				id: "683FF12E5AF7A609"
+				item: "immersiveengineering:concrete"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23A7465E875FCB1E"]
+			id: "5FFBDD5741E3B656"
+			subtitle: "Blast and radiation resistant"
+			tasks: [{
+				id: "289523B4DE5CA7B3"
+				item: "immersiveengineering:concrete_leaded"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["759660FCA928F7D4"]
+			id: "7D441C3132857CA1"
+			subtitle: "Used to hold wiring, tools, food, and a little bit of anything."
+			tasks: [{
+				id: "49D28823FE55EAF8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 23
+						}
+					}
+					id: "immersiveengineering:toolbox"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["759660FCA928F7D4"]
+			id: "1956B109408BB2C4"
+			tasks: [{
+				id: "3464108D627C0526"
+				item: "immersiveengineering:reinforced_crate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["23A7465E875FCB1E"]
+			id: "35E0E4589A082950"
+			subtitle: "Easier to break than concrete."
+			tasks: [{
+				id: "7FF83C9E117BBF63"
+				item: "immersiveengineering:concrete_brick"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			id: "7BB3600622737F3A"
+			tasks: [{
+				id: "20A27F4B82BEA412"
+				item: "immersiveengineering:screwdriver"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "55ABD15BF811AFAA"
+			tasks: [{
+				id: "7C825E257C6B79D1"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CDF23668EBE2A82"]
+			id: "73DAE230CA35E2FE"
+			tasks: [{
+				id: "39C02342F403F725"
+				item: "immersiveengineering:light_bulb"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CDF23668EBE2A82"]
+			id: "55B648F1AA1FD1BE"
+			tasks: [{
+				id: "6DBA907C31613655"
+				item: "immersiveengineering:component_iron"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["029209DF457F12B4"]
+			id: "4A44EBF4EDA8DC3E"
+			tasks: [{
+				id: "749BB9ABA4D6A597"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A44EBF4EDA8DC3E"]
+			id: "66C0CBE11E8B0000"
+			tasks: [{
+				id: "059568DB290683F0"
+				item: "immersiveengineering:conveyor_redstone"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4A44EBF4EDA8DC3E"]
+			id: "798C2E302995E725"
+			tasks: [{
+				id: "167CC76A37C05C91"
+				item: "immersiveengineering:conveyor_vertical"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A44EBF4EDA8DC3E"]
+			id: "461BD1EB75272040"
+			tasks: [{
+				id: "3FC210DC237712AC"
+				item: "immersiveengineering:conveyor_splitter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["58963190C0E4460B"]
+			id: "17A2532A33193BCF"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_crusher"
+				criterion: ""
+				id: "5B3AE44BC71CD2C8"
+				title: "Crush my Nuts >:)"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BB3600622737F3A"]
+			id: "5FA1D6E4E6A793D0"
+			tasks: [{
+				id: "2B17DCE3A421F820"
+				item: "immersiveengineering:circuit_table"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FA1D6E4E6A793D0"]
+			id: "6C7758AD783F7B24"
+			tasks: [{
+				id: "716E382B836B926D"
+				item: "immersiveengineering:circuit_board"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C7758AD783F7B24"]
+			id: "0970078227DAB1AA"
+			tasks: [{
+				id: "03C71597CA59E4F1"
+				item: "immersiveengineering:logic_circuit"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0527F6500D815769"]
+			id: "557F856A26F0A540"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
+				criterion: ""
+				id: "4C1509B7E3D79756"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58963190C0E4460B"]
+			id: "41AEBF91ECB44682"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+				id: "48CB434D69176B32"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17A2532A33193BCF"]
+			id: "15185B52F1462A9C"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
+				criterion: ""
+				id: "301C8428767DEEAC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4FE34F3F8B852F1D"]
+			id: "196B2EA247164468"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
+				criterion: ""
+				id: "6CE992E39784535D"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["196B2EA247164468"]
+			id: "481E18233F1FB298"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "37F73318D7CADADB"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+	]
+	title: "Modern Marvels"
+}

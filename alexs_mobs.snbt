@@ -1,0 +1,1883 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_mobs"
+	group: "2348723DDEA00A7C"
+	icon: "alexsmobs:platypus_bucket"
+	id: "69804A6D54586495"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "alexsmobs:spawn_egg_alligator_snapping_turtle"
+			id: "1A2B3C4D5E6F7081"
+			tasks: [{
+				id: "1A2B3C4D5E6F7082"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:alligator_snapping_turtle"
+				type: "observation"
+			}]
+			title: "Observe Alligator Snapping Turtle"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_anaconda"
+			id: "2B3C4D5E6F7081A2"
+			tasks: [{
+				id: "2B3C4D5E6F7082A3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:anaconda"
+				type: "observation"
+			}]
+			title: "Observe Anaconda"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_anteater"
+			id: "3C4D5E6F7081A2B3"
+			tasks: [{
+				id: "3C4D5E6F7082A3B4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:anteater"
+				type: "observation"
+			}]
+			title: "Observe Anteater"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_bald_eagle"
+			id: "4D5E6F7081A2B3C4"
+			tasks: [{
+				id: "4D5E6F7082A3B4C5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:bald_eagle"
+				type: "observation"
+			}]
+			title: "Observe Bald Eagle"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: "alexsmobs:banana_slug_slime"
+			id: "5E6F7081A2B3C4D5"
+			tasks: [{
+				id: "5E6F7082A3B4C5D6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:banana_slug"
+				type: "observation"
+			}]
+			title: "Observe Banana Slug"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			icon: "alexsmobs:bison_fur"
+			id: "6F7081A2B3C4D5E6"
+			tasks: [{
+				id: "6F7081A2B3C4D5E7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:bison"
+				type: "observation"
+			}]
+			title: "Observe Bison"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			icon: "alexsmobs:blobfish_bucket"
+			id: "54896EC447B0AC4E"
+			tasks: [{
+				id: "3BE376DCDB1E7A9C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:blobfish"
+				type: "observation"
+			}]
+			title: "Observe Blobfish"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_blue_jay"
+			id: "014075429BA33C23"
+			tasks: [{
+				id: "5CEBABA23A3035F3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:blue_jay"
+				type: "observation"
+			}]
+			title: "Observe Blue Jay"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			icon: "alexsmobs:bone_serpent_tooth"
+			id: "17E6957760032354"
+			tasks: [{
+				id: "4D116DDF5B5B15DB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:bone_serpent"
+				type: "observation"
+			}]
+			title: "Observe Bone Serpent"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_bunfungus"
+			id: "273F1C22A8BFCD03"
+			tasks: [{
+				id: "3440E1C70372722C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:bunfungus"
+				type: "observation"
+			}]
+			title: "Observe Bunfungus"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			icon: "alexsmobs:cachalot_whale_tooth"
+			id: "0A145500A2009F1E"
+			tasks: [{
+				id: "6CF5C216B1F65EFE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cachalot_whale"
+				type: "observation"
+			}]
+			title: "Observe Cachalot Whale"
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_capuchin_monkey"
+			id: "2497974D21AC39ED"
+			tasks: [{
+				id: "5077FABCEDAAE57E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:capuchin_monkey"
+				type: "observation"
+			}]
+			title: "Observe Capuchin Monkey"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			icon: "alexsmobs:small_catfish_bucket"
+			id: "26BCFD7E32833AA4"
+			tasks: [{
+				id: "652B3A97D5840D53"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:catfish"
+				type: "observation"
+			}]
+			title: "Observe Catfish"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			icon: "alexsmobs:centipede_leg"
+			id: "54B832071551F0D6"
+			tasks: [{
+				id: "535BEA5BF94803EF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cave_centipede"
+				type: "observation"
+			}]
+			title: "Observe Cave Centipede"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			icon: "alexsmobs:cockroach_ootheca"
+			id: "78D02A9BD20D4CA9"
+			tasks: [{
+				id: "7A40CBD557763E30"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cockroach"
+				type: "observation"
+			}]
+			title: "Observe Cockroach"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			icon: "alexsmobs:comb_jelly_bucket"
+			id: "551BA45F3E0066F0"
+			tasks: [{
+				id: "3647285E88820E0D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:comb_jelly"
+				type: "observation"
+			}]
+			title: "Observe Comb Jelly"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_cosmaw"
+			id: "21318890CACD1E96"
+			tasks: [{
+				id: "7D2A859D7E39B9BE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cosmaw"
+				type: "observation"
+			}]
+			title: "Observe Cosmaw"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: "alexsmobs:cosmic_cod_bucket"
+			id: "560B52D6E2D9F521"
+			tasks: [{
+				id: "7D9E3EB2C372DFC6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cosmic_cod"
+				type: "observation"
+			}]
+			title: "Observe Cosmic Cod"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			icon: "alexsmobs:mosquito_larva"
+			id: "1EE56414F8DD934F"
+			tasks: [{
+				id: "2B2B448371A337F9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:crimson_mosquito"
+				type: "observation"
+			}]
+			title: "Observe Crimson Mosquito"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			icon: "alexsmobs:crocodile_scute"
+			id: "68495984CA1D80C4"
+			tasks: [{
+				id: "30F4BB2970E8D972"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:crocodile"
+				type: "observation"
+			}]
+			title: "Observe Crocodile"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_crow"
+			id: "4323E024E60172D7"
+			tasks: [{
+				id: "33519A7FCE09E5AD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:crow"
+				type: "observation"
+			}]
+			title: "Observe Crow"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			icon: "alexsmobs:devils_hole_pupfish_bucket"
+			id: "0793D5CD9F4A5AED"
+			tasks: [{
+				id: "20F83FECC9F0F9DD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:devils_hole_pupfish"
+				type: "observation"
+			}]
+			title: "Observe Devils Hole Pupfish"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			icon: "alexsmobs:dropbear_claw"
+			id: "3433E330BB115ECA"
+			tasks: [{
+				id: "3C6C306FAFBCFECF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:dropbear"
+				type: "observation"
+			}]
+			title: "Observe Dropbear"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_elephant"
+			id: "2D723993AEEA899B"
+			tasks: [{
+				id: "17C6520FF3E336CE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:elephant"
+				type: "observation"
+			}]
+			title: "Observe Elephant"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			icon: "alexsmobs:emu_feather"
+			id: "7DE30FB65D09FE41"
+			tasks: [{
+				id: "2AC6C6725815A875"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:emu"
+				type: "observation"
+			}]
+			title: "Observe Emu"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_endergrade"
+			id: "44B53DF40B0B4F59"
+			tasks: [{
+				id: "2C056386CA97AE89"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:endergrade"
+				type: "observation"
+			}]
+			title: "Observe Endergrade"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			icon: "alexsmobs:enderiophage_rocket"
+			id: "697C7686EA29006A"
+			tasks: [{
+				id: "6C9C64506A531216"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:enderiophage"
+				type: "observation"
+			}]
+			title: "Observe Enderiophage"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			icon: "alexsmobs:farseer_arm"
+			id: "658A0EC6727BB0BE"
+			tasks: [{
+				id: "7EB37FC538D1A17E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:farseer"
+				type: "observation"
+			}]
+			title: "Observe Farseer"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			icon: "alexsmobs:potted_flutter"
+			id: "36EC6CBA2633AD03"
+			tasks: [{
+				id: "3294F60831AF5B2C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:flutter"
+				type: "observation"
+			}]
+			title: "Observe Flutter"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_fly"
+			id: "3A8899E03FB9D611"
+			tasks: [{
+				id: "62F5837991A6C36A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:fly"
+				type: "observation"
+			}]
+			title: "Observe Fly"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			icon: "alexsmobs:flying_fish_bucket"
+			id: "097C57CCB9B22512"
+			tasks: [{
+				id: "524FC502FFD5D158"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:flying_fish"
+				type: "observation"
+			}]
+			title: "Observe Flying Fish"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			icon: "alexsmobs:frilled_shark_bucket"
+			id: "2B6D682E62646BE5"
+			tasks: [{
+				id: "410E1AC639B1D9E1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:frilled_shark"
+				type: "observation"
+			}]
+			title: "Observe Frilled Shark"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			icon: "alexsmobs:froststalker_horn"
+			id: "65A0A3BFCE08E7D3"
+			tasks: [{
+				id: "38504F14D58C28DD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:froststalker"
+				type: "observation"
+			}]
+			title: "Observe Froststalker"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			icon: "alexsmobs:gazelle_horn"
+			id: "1CFA8CEA01253AFC"
+			tasks: [{
+				id: "448C8DFDE89E6802"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:gazelle"
+				type: "observation"
+			}]
+			title: "Observe Gazelle"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_gelada_monkey"
+			id: "038670670EF51ACC"
+			tasks: [{
+				id: "6D98AD6686A9B16D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:gelada_monkey"
+				type: "observation"
+			}]
+			title: "Observe Gelada Monkey"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_giant_squid"
+			id: "4D66AF302F74225A"
+			tasks: [{
+				id: "3795419F94B3328D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:giant_squid"
+				type: "observation"
+			}]
+			title: "Observe Giant Squid"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_gorilla"
+			id: "0B0EF61DAF349FA8"
+			tasks: [{
+				id: "4CDA88F7E8757CC3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:gorilla"
+				type: "observation"
+			}]
+			title: "Observe Gorilla"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_grizzly_bear"
+			id: "1CA83B578EFC8477"
+			tasks: [{
+				id: "672A9762215408CE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:grizzly_bear"
+				type: "observation"
+			}]
+			title: "Observe Grizzly Bear"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			icon: "alexsmobs:guster_eye"
+			id: "43079D2609D9A215"
+			tasks: [{
+				id: "1C66EC7BC73DF6DD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:guster"
+				type: "observation"
+			}]
+			title: "Observe Guster"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_hammerhead_shark"
+			id: "52C744EB74FBB518"
+			tasks: [{
+				id: "365382680FF665E7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:hammerhead_shark"
+				type: "observation"
+			}]
+			title: "Observe Hammerhead Shark"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			icon: "alexsmobs:hummingbird_feeder"
+			id: "5E226C769D507B75"
+			tasks: [{
+				id: "40883552B9A307E1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:hummingbird"
+				type: "observation"
+			}]
+			title: "Observe Hummingbird"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_jerboa"
+			id: "27829C8DC717C29E"
+			tasks: [{
+				id: "4E116A38B6752B8C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:jerboa"
+				type: "observation"
+			}]
+			title: "Observe Jerboa"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_kangaroo"
+			id: "2F6C3FEB27639839"
+			tasks: [{
+				id: "05443FA15FEF9D1A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:kangaroo"
+				type: "observation"
+			}]
+			title: "Observe Kangaroo"
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			icon: "alexsmobs:komodo_spit_bottle"
+			id: "738D1D796D61ADEF"
+			tasks: [{
+				id: "26932CBE7A289F78"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:komodo_dragon"
+				type: "observation"
+			}]
+			title: "Observe Komodo Dragon"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_laviathan"
+			id: "619BA1199A54A151"
+			tasks: [{
+				id: "7C5E1FB6CD0DDFF6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:laviathan"
+				type: "observation"
+			}]
+			title: "Observe Laviathan"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			icon: "alexsmobs:leafcutter_ant_pupa"
+			id: "3707731E024EDB11"
+			tasks: [{
+				id: "05C168AD5D3FC0C8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:leafcutter_ant"
+				type: "observation"
+			}]
+			title: "Observe Leafcutter Ant"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			icon: "alexsmobs:lobster_bucket"
+			id: "53B007A214FA2F65"
+			tasks: [{
+				id: "0C4F860BAF929DA9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:lobster"
+				type: "observation"
+			}]
+			title: "Observe Lobster"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_maned_wolf"
+			id: "0DB0A412B7C64C5A"
+			tasks: [{
+				id: "7BB7AE1EBD62940E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:maned_wolf"
+				type: "observation"
+			}]
+			title: "Observe Maned Wolf"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_mantis_shrimp"
+			id: "2F87EA5C98BD72B1"
+			tasks: [{
+				id: "0291BE34A9C3D9E9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mantis_shrimp"
+				type: "observation"
+			}]
+			title: "Observe Mantis Shrimp"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			icon: "alexsmobs:mimicream"
+			id: "2E142143F33A67E3"
+			tasks: [{
+				id: "5A167A3EC7EE93F1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mimicube"
+				type: "observation"
+			}]
+			title: "Observe Mimicube"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			icon: "alexsmobs:mimic_octopus_bucket"
+			id: "54F2E443FA5C4A9F"
+			tasks: [{
+				id: "232D8BAACF520878"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mimic_octopus"
+				type: "observation"
+			}]
+			title: "Observe Mimic Octopus"
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			icon: "alexsmobs:moose_antler"
+			id: "535507A66795C82C"
+			tasks: [{
+				id: "7BD0EB31B4C81356"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:moose"
+				type: "observation"
+			}]
+			title: "Observe Moose"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			icon: "alexsmobs:mudskipper_bucket"
+			id: "1FDE602B9D6E9E16"
+			tasks: [{
+				id: "3F339B0D00F23968"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mudskipper"
+				type: "observation"
+			}]
+			title: "Observe Mudskipper"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_mungus"
+			id: "39142F3A96955FE1"
+			tasks: [{
+				id: "645A7D2BECBC9C71"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mungus"
+				type: "observation"
+			}]
+			title: "Observe Mungus"
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_murmur"
+			id: "7D04B6092B0B982B"
+			tasks: [{
+				id: "3244FD61D1D2305F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:murmur"
+				type: "observation"
+			}]
+			title: "Observe Murmur"
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_orca"
+			id: "3CAD0F865D2942C9"
+			tasks: [{
+				id: "6F6FD0E9C286627C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:orca"
+				type: "observation"
+			}]
+			title: "Observe Orca"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			icon: "alexsmobs:platypus_bucket"
+			id: "40E530F36939DA77"
+			tasks: [{
+				id: "3700AD3E4BFD78A2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:platypus"
+				type: "observation"
+			}]
+			title: "Observe Platypus"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_potoo"
+			id: "33689DE7A422A829"
+			tasks: [{
+				id: "5A27D21D09E43074"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:potoo"
+				type: "observation"
+			}]
+			title: "Observe Potoo"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			icon: "alexsmobs:raccoon_tail"
+			id: "2341DD6AB595E18F"
+			tasks: [{
+				id: "41FFC97B9BF33350"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:raccoon"
+				type: "observation"
+			}]
+			title: "Observe Raccoon"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_rain_frog"
+			id: "2B046574050B4F9D"
+			tasks: [{
+				id: "13DE23F896E946DF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rain_frog"
+				type: "observation"
+			}]
+			title: "Observe Rain Frog"
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			icon: "alexsmobs:rattlesnake_rattle"
+			id: "697DF8DEFEF2B8CF"
+			tasks: [{
+				id: "58BB5BED42C99E06"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rattlesnake"
+				type: "observation"
+			}]
+			title: "Observe Rattlesnake"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_rhinoceros"
+			id: "70EB0D4AE6E552B0"
+			tasks: [{
+				id: "75B1BD6D2EBE06BB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rhinoceros"
+				type: "observation"
+			}]
+			title: "Observe Rhinoceros"
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			icon: "alexsmobs:roadrunner_feather"
+			id: "45B3CB2297D25B8F"
+			tasks: [{
+				id: "225C62BEBBDCA98D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:roadrunner"
+				type: "observation"
+			}]
+			title: "Observe Roadrunner"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			icon: "alexsmobs:rocky_shell"
+			id: "48AA89DBEAEF1B72"
+			tasks: [{
+				id: "736BC8B1252368E6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rocky_roller"
+				type: "observation"
+			}]
+			title: "Observe Rocky Roller"
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_seagull"
+			id: "1300B384CC0E7FB5"
+			tasks: [{
+				id: "24348002B6D74CA7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:seagull"
+				type: "observation"
+			}]
+			title: "Observe Seagull"
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_seal"
+			id: "14AFFDA5BA243697"
+			tasks: [{
+				id: "17E15B29B5CBEC5E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:seal"
+				type: "observation"
+			}]
+			title: "Observe Seal"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			icon: "minecraft:sea_pickle"
+			id: "148A6FD642ED09CF"
+			tasks: [{
+				id: "6937190CF3B2EF0A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:sea_bear"
+				type: "observation"
+			}]
+			title: "Observe Sea Bear"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_shoebill"
+			id: "4A29E53AF0E0EC0D"
+			tasks: [{
+				id: "3F0703E196ECF4F5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:shoebill"
+				type: "observation"
+			}]
+			title: "Observe Shoebill"
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexsmobs:skelewag_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1EA3A0FB3B1E87A3"
+			tasks: [{
+				id: "0C9219D0CDFA8014"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:skelewag"
+				type: "observation"
+			}]
+			title: "Observe Skelewag"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			icon: "alexsmobs:skreecher_soul"
+			id: "2B080CBAF7D10D49"
+			tasks: [{
+				id: "3F69F1589C8CB25B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:skreecher"
+				type: "observation"
+			}]
+			title: "Observe Skreecher"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_skunk"
+			id: "295C6DB92B49ACB9"
+			tasks: [{
+				id: "52D40DFE5E7ABD87"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:skunk"
+				type: "observation"
+			}]
+			title: "Observe Skunk"
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_snow_leopard"
+			id: "69ABF3598B0D0C01"
+			tasks: [{
+				id: "15B9EE29A17EF431"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:snow_leopard"
+				type: "observation"
+			}]
+			title: "Observe Snow Leopard"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_soul_vulture"
+			id: "0A583A49B04BF244"
+			tasks: [{
+				id: "7DC7F6FF2DD8BA2D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:soul_vulture"
+				type: "observation"
+			}]
+			title: "Observe Soul Vulture"
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_spectre"
+			id: "2E5AF859CB564686"
+			tasks: [{
+				id: "63E1B77337774481"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:spectre"
+				type: "observation"
+			}]
+			title: "Observe Spectre"
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_straddler"
+			id: "1E1B9AB7FBDE2A54"
+			tasks: [{
+				id: "701066FFB1340AB3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:straddler"
+				type: "observation"
+			}]
+			title: "Observe Straddler"
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			icon: "alexsmobs:stradpole_bucket"
+			id: "35C4B4423CCB9523"
+			tasks: [{
+				id: "5D7029D580D47C3D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:stradpole"
+				type: "observation"
+			}]
+			title: "Observe Stradpole"
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			icon: "minecraft:sugar"
+			id: "066F12474FBDD4BB"
+			tasks: [{
+				id: "5C9F00B1CF45F1E2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:sugar_glider"
+				type: "observation"
+			}]
+			title: "Observe Sugar Glider"
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_sunbird"
+			id: "2550A2A19264EB6C"
+			tasks: [{
+				id: "31985DF6451D0ECD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:sunbird"
+				type: "observation"
+			}]
+			title: "Observe Sunbird"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexsmobs:tarantula_hawk_elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "669F376EC0F28D30"
+			tasks: [{
+				id: "2F3BB0DC242D6446"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:tarantula_hawk"
+				type: "observation"
+			}]
+			title: "Observe Tarantula Hawk"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_tasmanian_devil"
+			id: "6E1C3C3BA432C08A"
+			tasks: [{
+				id: "05F17508AC4AAE84"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:tasmanian_devil"
+				type: "observation"
+			}]
+			title: "Observe Tasmanian Devil"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			icon: "alexsmobs:terrapin_bucket"
+			id: "29CA0979737F8DFB"
+			tasks: [{
+				id: "04E58CBEE375B456"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:terrapin"
+				type: "observation"
+			}]
+			title: "Observe Terrapin"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_tiger"
+			id: "7129CFCFA80621D8"
+			tasks: [{
+				id: "7737D882FC527A07"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:tiger"
+				type: "observation"
+			}]
+			title: "Observe Tiger"
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_toucan"
+			id: "088F3672BEB97ED6"
+			tasks: [{
+				id: "59F524B1E5F1C34E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:toucan"
+				type: "observation"
+			}]
+			title: "Observe Toucan"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_tusklin"
+			id: "6263BC2F3122C977"
+			tasks: [{
+				id: "4923075B973F1712"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:tusklin"
+				type: "observation"
+			}]
+			title: "Observe Tusklin"
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_underminer"
+			id: "3F7775733CAB61C1"
+			tasks: [{
+				id: "451C7B92A885DA81"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:underminer"
+				type: "observation"
+			}]
+			title: "Observe Underminer"
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			icon: "alexsmobs:void_worm_eye"
+			id: "1F5A517A79382138"
+			tasks: [{
+				id: "4020071D37A33E50"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:void_worm"
+				type: "observation"
+			}]
+			title: "Observe Void Worm"
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_warped_mosco"
+			id: "3147F58B473BB702"
+			tasks: [{
+				id: "5CEF7A1C685F81E9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:warped_mosco"
+				type: "observation"
+			}]
+			title: "Observe Warped Mosco"
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_warped_toad"
+			id: "24DE4836731BA14B"
+			tasks: [{
+				id: "2970A693571A7EE1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:warped_toad"
+				type: "observation"
+			}]
+			title: "Observe Warped Toad"
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			icon: "alexsmobs:platypus_bucket"
+			id: "211D1DAEA7988F70"
+			size: 4.0d
+			tasks: [
+				{
+					id: "6C0777782AA1AF62"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:alligator_snapping_turtle"
+					type: "observation"
+				}
+				{
+					id: "385A603BF870FDC6"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:anaconda"
+					type: "observation"
+				}
+				{
+					id: "14956E7726080193"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:anteater"
+					type: "observation"
+				}
+				{
+					id: "2995C94325050567"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:bald_eagle"
+					type: "observation"
+				}
+				{
+					id: "080E72245F085A6D"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:banana_slug"
+					type: "observation"
+				}
+				{
+					id: "6DEFA916C9CF74E6"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:bison"
+					type: "observation"
+				}
+				{
+					id: "082D6C26F7FE6A8A"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:blobfish"
+					type: "observation"
+				}
+				{
+					id: "785F8C89D39FCEA4"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:blue_jay"
+					type: "observation"
+				}
+				{
+					id: "44DFE67F25C64C17"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:bone_serpent"
+					type: "observation"
+				}
+				{
+					id: "070C34646272A017"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:bunfungus"
+					type: "observation"
+				}
+				{
+					id: "4742E60564382B60"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:cachalot_whale"
+					type: "observation"
+				}
+				{
+					id: "733AF6C759317F02"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:capuchin_monkey"
+					type: "observation"
+				}
+				{
+					id: "0DEE1E939C31C6D9"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:catfish"
+					type: "observation"
+				}
+				{
+					id: "7144873D1B67A82D"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:cave_centipede"
+					type: "observation"
+				}
+				{
+					id: "4E5ED26027D13C30"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:cockroach"
+					type: "observation"
+				}
+				{
+					id: "3090B62CD1C6860A"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:comb_jelly"
+					type: "observation"
+				}
+				{
+					id: "16378D371E747674"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:cosmaw"
+					type: "observation"
+				}
+				{
+					id: "43152EAC30B2273D"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:cosmic_cod"
+					type: "observation"
+				}
+				{
+					id: "0324D63D14BCB62E"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:crimson_mosquito"
+					type: "observation"
+				}
+				{
+					id: "7AA7992F577AA0BC"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:crocodile"
+					type: "observation"
+				}
+				{
+					id: "5F464D358BF7FACD"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:crow"
+					type: "observation"
+				}
+				{
+					id: "3C792FF66EB075A5"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:devils_hole_pupfish"
+					type: "observation"
+				}
+				{
+					id: "6C472C62129A7EC4"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:dropbear"
+					type: "observation"
+				}
+				{
+					id: "410CA315E3D35EE1"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:elephant"
+					type: "observation"
+				}
+				{
+					id: "5FCBDB41A5937A65"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:emu"
+					type: "observation"
+				}
+				{
+					id: "7997C752EEF96009"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:endergrade"
+					type: "observation"
+				}
+				{
+					id: "7F9A9A5A88A05E4E"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:enderiophage"
+					type: "observation"
+				}
+				{
+					id: "7DAB768F87AD8D2F"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:farseer"
+					type: "observation"
+				}
+				{
+					id: "464358C6818B3EDD"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:flutter"
+					type: "observation"
+				}
+				{
+					id: "6C9B902F952EBD70"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:fly"
+					type: "observation"
+				}
+				{
+					id: "17BF1CB5DB86F47D"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:flying_fish"
+					type: "observation"
+				}
+				{
+					id: "08734CB3049E7B82"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:frilled_shark"
+					type: "observation"
+				}
+				{
+					id: "5F14EC8549238ADF"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:froststalker"
+					type: "observation"
+				}
+				{
+					id: "1E2EFBA861450DF1"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:gazelle"
+					type: "observation"
+				}
+				{
+					id: "26C0C6C77A30AA74"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:gelada_monkey"
+					type: "observation"
+				}
+				{
+					id: "3D4F2CF2BDBAB687"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:giant_squid"
+					type: "observation"
+				}
+				{
+					id: "06863E91567C56D2"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:gorilla"
+					type: "observation"
+				}
+				{
+					id: "2810A0D03BEA5A7A"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:grizzly_bear"
+					type: "observation"
+				}
+				{
+					id: "33EDA8DABF3A12B2"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:guster"
+					type: "observation"
+				}
+				{
+					id: "3244D046B4256DF2"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:hammerhead_shark"
+					type: "observation"
+				}
+				{
+					id: "2F651203F7CEC0B3"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:hummingbird"
+					type: "observation"
+				}
+				{
+					id: "53D7697991FE8FA2"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:jerboa"
+					type: "observation"
+				}
+				{
+					id: "3D6A23D543D1C76A"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:kangaroo"
+					type: "observation"
+				}
+				{
+					id: "1985D5572C5F8031"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:komodo_dragon"
+					type: "observation"
+				}
+				{
+					id: "59D121F07056E4CC"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:laviathan"
+					type: "observation"
+				}
+				{
+					id: "7390654BD7C3D7C5"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:leafcutter_ant"
+					type: "observation"
+				}
+				{
+					id: "346568780EAFF0CC"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:lobster"
+					type: "observation"
+				}
+				{
+					id: "325761942CA3AD1E"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:maned_wolf"
+					type: "observation"
+				}
+				{
+					id: "7E135B1C965F24CE"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:mantis_shrimp"
+					type: "observation"
+				}
+				{
+					id: "2CF5E83799B925D5"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:mimicube"
+					type: "observation"
+				}
+				{
+					id: "464DD76EC5C10DE7"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:mimic_octopus"
+					type: "observation"
+				}
+				{
+					id: "05989A2121E0B44A"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:moose"
+					type: "observation"
+				}
+				{
+					id: "07C9C0688367E547"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:mudskipper"
+					type: "observation"
+				}
+				{
+					id: "0BE724BBB6D52721"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:mungus"
+					type: "observation"
+				}
+				{
+					id: "392DA1B8285295CE"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:murmur"
+					type: "observation"
+				}
+				{
+					id: "531BD083688512A7"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:orca"
+					type: "observation"
+				}
+				{
+					id: "4142EC88901DCB37"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:platypus"
+					type: "observation"
+				}
+				{
+					id: "3F5D302DC56EF385"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:potoo"
+					type: "observation"
+				}
+				{
+					id: "2C563E429BDF1922"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:raccoon"
+					type: "observation"
+				}
+				{
+					id: "0B3DE076A09D8A06"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:rain_frog"
+					type: "observation"
+				}
+				{
+					id: "71D3B8BA870F9683"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:rattlesnake"
+					type: "observation"
+				}
+				{
+					id: "28E95566985D016B"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:rhinoceros"
+					type: "observation"
+				}
+				{
+					id: "1D1557D2782D2D99"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:roadrunner"
+					type: "observation"
+				}
+				{
+					id: "339D87DEAEDC2211"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:rocky_roller"
+					type: "observation"
+				}
+				{
+					id: "270BD81D08E36E5D"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:seagull"
+					type: "observation"
+				}
+				{
+					id: "4AED42BAA4F1C9D9"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:seal"
+					type: "observation"
+				}
+				{
+					id: "0553407D66F1872F"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:sea_bear"
+					type: "observation"
+				}
+				{
+					id: "3774372DAB8A925E"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:shoebill"
+					type: "observation"
+				}
+				{
+					id: "7646C389FB54476A"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:skelewag"
+					type: "observation"
+				}
+				{
+					id: "0F9BCA935042490D"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:skreecher"
+					type: "observation"
+				}
+				{
+					id: "619BFA9CA3FCB413"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:skunk"
+					type: "observation"
+				}
+				{
+					id: "4D94953EB3C4ED19"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:snow_leopard"
+					type: "observation"
+				}
+				{
+					id: "648E917B6101C101"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:soul_vulture"
+					type: "observation"
+				}
+				{
+					id: "6A678B519E36602C"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:spectre"
+					type: "observation"
+				}
+				{
+					id: "38C3DAA6A3ACF631"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:straddler"
+					type: "observation"
+				}
+				{
+					id: "2ACA0256EAFF0539"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:stradpole"
+					type: "observation"
+				}
+				{
+					id: "3FCF6E00D4AB3638"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:sugar_glider"
+					type: "observation"
+				}
+				{
+					id: "69D357E05CD7F2BA"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:sunbird"
+					type: "observation"
+				}
+				{
+					id: "4B6AB71FF82EA6F5"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:tarantula_hawk"
+					type: "observation"
+				}
+				{
+					id: "60B0366B007CED09"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:tasmanian_devil"
+					type: "observation"
+				}
+				{
+					id: "25D93E688ACA0439"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:terrapin"
+					type: "observation"
+				}
+				{
+					id: "4B7B42765D95429C"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:tiger"
+					type: "observation"
+				}
+				{
+					id: "4601FE39B1A630F3"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:toucan"
+					type: "observation"
+				}
+				{
+					id: "64C990821B209C56"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:tusklin"
+					type: "observation"
+				}
+				{
+					id: "4ABDCF2BD9576013"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:underminer"
+					type: "observation"
+				}
+				{
+					id: "7BB3095387CC7A1D"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:void_worm"
+					type: "observation"
+				}
+				{
+					id: "40E1409274EA28AD"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:warped_mosco"
+					type: "observation"
+				}
+				{
+					id: "44202BF54CC18960"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexsmobs:warped_toad"
+					type: "observation"
+				}
+			]
+			title: "Observe All Alex's Mobs"
+			x: 5.0d
+			y: 4.5d
+		}
+	]
+	title: "Alex's Mobs"
+}

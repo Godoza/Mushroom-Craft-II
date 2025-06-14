@@ -1,0 +1,785 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "to_infinity_and_my_mom"
+	group: "2348723DDEA00A7C"
+	icon: {
+		Count: 1
+		id: "ad_astra:netherite_space_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "59E5F29574F1D9C8"
+	images: [
+		{
+			height: 8.0d
+			image: "ad_astra:textures/painting/moon.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -11.0d
+			y: -16.5d
+		}
+		{
+			height: 15.0d
+			image: "ad_astra:textures/painting/earth.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "ad_astra:textures/painting/mars.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -29.5d
+			y: -5.5d
+		}
+		{
+			height: 15.0d
+			image: "ad_astra:textures/painting/venus.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -36.0d
+			y: -27.0d
+		}
+		{
+			height: 15.0d
+			image: "ad_astra:textures/painting/mercury.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -23.0d
+			y: -27.0d
+		}
+		{
+			height: 15.0d
+			image: "ad_astra:textures/environment/glacio.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -29.5d
+			y: -40.0d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1C1A1B97A0092E28"
+			subtitle: "Simple coal generator that burns coal to get FE energy."
+			tasks: [{
+				id: "257AA2FE012A308C"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			id: "3F060CB5AE59AF2E"
+			subtitle: "This is where the magic (or well technically science) begins! The compressor is the key to unlocking almost all of the functionality of Ad Astra! Powered by any FE providing source, the compressor can turn ingots into plates which is a vital crafting component."
+			tasks: [{
+				id: "5FB4B99691C6E168"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F060CB5AE59AF2E"]
+			id: "420EDE23B20191CA"
+			subtitle: "Can smelt ingots as well as alloys. Used for making steel. Doubles as a furnace as well."
+			tasks: [{
+				id: "4073666309141582"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F060CB5AE59AF2E"]
+			id: "5F95C9FC0B75BF12"
+			subtitle: "Its not rocket science! Well.. nvm"
+			tasks: [{
+				id: "03F1CDF19FC46611"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "06B3E18D7644BBE4"
+			tasks: [{
+				id: "4FEF82B7AD653894"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4DE707404ACAAF66"]
+			id: "15E1DD1D2B5A283B"
+			subtitle: "Suit Up II! An absolute must for space travel. Make sure to fill up your chestplate with oxygen! Only protects against cold. You need the Netherite Space Suit for hotter planets."
+			tasks: [
+				{
+					id: "24FFB5F6FA19EB66"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3331154701E93349"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DFBC8491AE7AB47"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7164A66E2E610BDF"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42DAEF53EB000874"]
+			id: "4DE707404ACAAF66"
+			subtitle: "Not sure what I expected but it certainly wasnt this. It's literally oxygen. In a bucket. Upside down."
+			tasks: [{
+				id: "288B9166D686A181"
+				item: "ad_astra:oxygen_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F060CB5AE59AF2E"]
+			id: "42DAEF53EB000874"
+			subtitle: "The oxygen loader converts water into oxygen that can then be stored in tanks or a bucket."
+			tasks: [{
+				id: "7E7E8BC6D246C637"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F060CB5AE59AF2E"]
+			id: "7A0FD5CFED258696"
+			subtitle: "Basically what you'd expect. place it down and then place your rocket on it. Make sure to bring a spare for launching home!"
+			tasks: [{
+				id: "5E00E5845E394D5C"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"06B3E18D7644BBE4"
+				"3F060CB5AE59AF2E"
+			]
+			id: "441DC940A6533B55"
+			subtitle: "Turns native oil into useable fuel at the cost of FE energy."
+			tasks: [{
+				id: "36A85B2388C93C4B"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F060CB5AE59AF2E"]
+			id: "35B05CA59F215E97"
+			subtitle: "Fill in an oxygen loader."
+			tasks: [{
+				id: "30DBFC756E0914C5"
+				item: {
+					Count: 1
+					id: "ad_astra:gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F060CB5AE59AF2E"]
+			id: "39E5E9967CAF4C8A"
+			subtitle: "What is essentially a portable charger or power bank"
+			tasks: [{
+				id: "6943803B460F4EA2"
+				item: {
+					Count: 1
+					id: "ad_astra:etrionic_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "17D79A81AE5CD0A0"
+			subtitle: "Plays real internet streamed radio channels!"
+			tasks: [{
+				id: "0A90DD7F9303D02A"
+				item: "ad_astra:radio"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["28DD736C8E21E0C2"]
+			id: "26993B87EA502501"
+			tasks: [{
+				id: "56A9097E5BD07B4D"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -18.0d
+		}
+		{
+			id: "1E61DFDCD5E74CB3"
+			subtitle: "WEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE (does what it says, makes you zip around. Use 2 if you want even more zippy)"
+			tasks: [{
+				id: "6BB77ED430EBE704"
+				item: {
+					Count: 1
+					id: "ad_astra:zip_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["26993B87EA502501"]
+			id: "03FBE23010ED133D"
+			subtitle: "Currently Etrium is not usable and diamond is a stand-in for said resource."
+			tasks: [{
+				id: "5943E219B74F8D98"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["26993B87EA502501"]
+			id: "1AC0112B66F9BDA3"
+			tasks: [{
+				id: "29F0E27EE1D5F00F"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["26993B87EA502501"]
+			id: "383485082455FBBE"
+			tasks: [{
+				id: "06593EDB7C16D64F"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["26993B87EA502501"]
+			id: "06AAE2279B146545"
+			tasks: [{
+				id: "64D9CC781F6FADF8"
+				item: "ad_astra:gravity_normalizer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -16.5d
+		}
+		{
+			id: "18EB05DB1B97CB99"
+			subtitle: "nice."
+			tasks: [{
+				id: "00D485E36AA03635"
+				item: "ad_astra:ti_69"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26993B87EA502501"]
+			id: "0AD4B4765ACB98EB"
+			tasks: [{
+				id: "738E6731656C4AD9"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["3F060CB5AE59AF2E"]
+			id: "274B61BF28B90931"
+			subtitle: "Transports energy to machines across distances."
+			tasks: [{
+				id: "5D7AF17FBCB81EA7"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26993B87EA502501"]
+			id: "5B7BEDEF099EC8C0"
+			tasks: [{
+				id: "3F2B163B1176C774"
+				item: "ad_astra:desh_cable"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -19.0d
+		}
+		{
+			id: "1168BE2721AC5BB0"
+			subtitle: "use this wrench to change the orientation of energy or fuild pipes."
+			tasks: [{
+				id: "12315A907470BD5D"
+				item: "ad_astra:wrench"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26993B87EA502501"]
+			id: "56BE297CE19BB667"
+			tasks: [{
+				id: "13AE86404C1CDAB2"
+				item: "ad_astra:desh_fluid_pipe"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["767D9BFF3BA900EA"]
+			id: "22368284F2410221"
+			tasks: [{
+				id: "345FC1E4A75F9BDE"
+				item: "ad_astra:oxygen_sensor"
+				type: "item"
+			}]
+			x: -35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["767D9BFF3BA900EA"]
+			id: "21B3B79376B85182"
+			tasks: [
+				{
+					id: "04B1CFDB0D386525"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7585AC911C20AE0E"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4112273019FAB730"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "667419EACF2A9D91"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -29.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["441DC940A6533B55"]
+			id: "460F1F175965DA66"
+			subtitle: "Exactly what you think it is. Fills your rocket like a jerry can."
+			tasks: [{
+				id: "1FC55E074CB90F1A"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5F95C9FC0B75BF12"
+				"7A0FD5CFED258696"
+			]
+			icon: "ad_astra:rocket_nose_cone"
+			id: "372C9519439C4F0E"
+			rewards: [{
+				id: "1D396C0B06867157"
+				item: "ad_astra_giselle_addon:fuel_loader"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51161278B03CBB98"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2A30D4F60E6AA1EE"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "595D0696C685C829"
+					item: { Count: 6, id: "ad_astra:steel_block" }
+					type: "item"
+				}
+				{
+					id: "635F1E2E3D7CA576"
+					item: "ad_astra:steel_engine"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1591F203F7CD063A"
+					item: { Count: 2, id: "ad_astra:steel_tank" }
+					type: "item"
+				}
+			]
+			title: "Rocketman!"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["372C9519439C4F0E"]
+			id: "2AC82EC7529D49FA"
+			tasks: [{
+				id: "08C0DF9C895B4FA3"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AC82EC7529D49FA"]
+			id: "28DD736C8E21E0C2"
+			tasks: [{
+				id: "7B90CF58474EEC64"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			id: "604E84F3701CED4E"
+			rewards: [{
+				id: "2545A730FBC6D49C"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "ad_astra:astrodux"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Welcome to the questline for Ad Astra! Here you will find basically everything you'll need to go explore space! Be sure to check out the astrodex if something doesn't quite make sense as the quest descriptions are less in depth. You can come here if you ever lose your astrodex! Additionally feel free to use jei to check out some additions to Ad Astra by Giselle! If you're feeling really hardcore though, you can craft your own astrodex using iron, blue dye, and a book :)."
+			tasks: [{
+				id: "16B5E78FD7E71145"
+				type: "checkmark"
+			}]
+			title: "To The Stars!"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["28DD736C8E21E0C2"]
+			id: "767D9BFF3BA900EA"
+			subtitle: "Found on Mars. Used for crafting heat resistant rockets and armor."
+			tasks: [{
+				id: "76CBD791053472AF"
+				item: "ad_astra:raw_ostrum"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 0.0d
+		}
+		{
+			id: "4E4CA5DA49F313CD"
+			subtitle: "Spawns underground in the moon."
+			tasks: [{
+				id: "6CFFA966E76CF511"
+				item: "ad_astra:moon_cheese_ore"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4E4CA5DA49F313CD"]
+			id: "660A1B72D5B9437E"
+			subtitle: "Everybody knows the moon is made of cheese..."
+			tasks: [{
+				id: "6734B533BC163A2F"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["767D9BFF3BA900EA"]
+			id: "7583D7E92141BA9B"
+			size: 1.0d
+			tasks: [{
+				id: "155783F17658061B"
+				item: {
+					Count: 1
+					id: "ad_astra:energizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -35.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["767D9BFF3BA900EA"]
+			id: "3DD65CD5C816657C"
+			tasks: [{
+				id: "6705EA36913313BB"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3DD65CD5C816657C"]
+			id: "4BBAD2A8006F0881"
+			tasks: [{
+				id: "1454E342CB7E6A8E"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["767D9BFF3BA900EA"]
+			id: "558953677F5399E4"
+			tasks: [{
+				id: "71666014CE9A7CFC"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -29.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["558953677F5399E4"]
+			id: "1DA431AEE3C476B9"
+			tasks: [{
+				id: "42BAAA97221C57D6"
+				item: "ad_astra:raw_calorite"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["1DA431AEE3C476B9"]
+			id: "3534996A2BA649A8"
+			tasks: [
+				{
+					id: "4FEE10A965838038"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55401D7DCABEC0A1"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70C2CEC111C216BF"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29095FBBDE70E5C6"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -29.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["3534996A2BA649A8"]
+			id: "783A66A52AB2FA74"
+			rewards: [
+				{
+					count: 2
+					id: "05E8BF7BCB292E62"
+					item: "ad_astra:glacian_ram_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7A60FBFF5E259757"
+					item: "supplementaries:confetti_popper"
+					type: "item"
+				}
+				{
+					id: "7A93F93C8AE25F27"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftblibrary:icons/dice"
+						}
+					}
+					id: "1C2CB83E431054C8"
+					table_id: 1639111893817964316L
+					type: "loot"
+				}
+			]
+			subtitle: "Well... You did it! Congrats on exploring Ad Astra to its fullest! This is all there is for now so now you can move on to another questline! Also have some netherite for conquering not just our solar system but venturing far beyond! They will surely sing songs of your adventures one day!"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "515BE443D358D05C"
+				type: "dimension"
+			}]
+			x: -29.5d
+			y: -40.0d
+		}
+	]
+	title: "To Infinity and My Mom"
+}

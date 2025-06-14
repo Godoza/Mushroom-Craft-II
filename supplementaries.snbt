@@ -1,0 +1,617 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "supplementaries"
+	group: "5E49EAD2A45D42BD"
+	icon: "supplementaries:globe"
+	id: "1276DF3CA05FD358"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "supplementaries:flax"
+			id: "051ADB241B7C64EE"
+			subtitle: "Often found near bodies of water and swampy areas."
+			tasks: [{
+				id: "662CF97E3E37D1CF"
+				item: "supplementaries:flax"
+				type: "item"
+			}]
+			title: "Flax"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["051ADB241B7C64EE"]
+			id: "5DAE95A9AD3DA4A8"
+			subtitle: "Large grouping of flax, square sized!"
+			tasks: [{
+				id: "246D7C30835AB2A8"
+				item: "supplementaries:flax_block"
+				type: "item"
+			}]
+			title: "Flax Bale"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["051ADB241B7C64EE"]
+			id: "62D451883A0F3B58"
+			subtitle: "Gather crops in bulk with this helpful bundle."
+			tasks: [{
+				id: "1213DFEE2E60A2AA"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			title: "Sack"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["051ADB241B7C64EE"]
+			id: "071F6ABEB6F92D9B"
+			tasks: [{
+				id: "760C317885F4A989"
+				item: "supplementaries:rope"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["071F6ABEB6F92D9B"]
+			id: "7793C3ED134D8BCB"
+			tasks: [{
+				id: "420340665DF0E2AE"
+				item: {
+					Count: 1
+					id: "supplementaries:rope_arrow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "50A942741412B5F0"
+			tasks: [{
+				id: "2C30F1CD76321D4F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							SelectedSlot: 0
+							Size: 6
+						}
+					}
+					id: "supplementaries:quiver"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "732C67DA9FFA46CA"
+			tasks: [{
+				id: "2B626FE1B9B7031B"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "7726E7357FCD632C"
+			tasks: [{
+				id: "06C2A57FF0D0DB53"
+				item: {
+					Count: 1
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "10D8DDD65FCEAAEB"
+			tasks: [{
+				id: "28B427BD48EAA4B1"
+				item: "supplementaries:bomb"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "568A5939F9BDC5BB"
+			tasks: [{
+				id: "3C9A16AD193CF747"
+				item: {
+					Count: 1
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "115962F5B4133F3B"
+			tasks: [{
+				id: "4F021EC18822606C"
+				item: "supplementaries:planter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "0FB175ECC5FED610"
+			tasks: [{
+				id: "7C307D53C1F7B7BD"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "5D6591E8BAC78943"
+			tasks: [{
+				id: "7E55260B612B7462"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "1225B9E247F37333"
+			tasks: [{
+				id: "4F98D4919224CB2E"
+				item: "supplementaries:ash"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1225B9E247F37333"]
+			id: "0F286D81A1E22034"
+			tasks: [{
+				id: "0A4626B27D845D16"
+				item: "supplementaries:soap"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1225B9E247F37333"]
+			id: "79FBE4DAB65C11F8"
+			tasks: [{
+				id: "4726D61E4007F823"
+				item: "supplementaries:ash_brick"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79FBE4DAB65C11F8"]
+			id: "65A3098C77246C55"
+			tasks: [{
+				id: "57642E2406ADAF21"
+				item: "supplementaries:ash_bricks"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F286D81A1E22034"]
+			icon: {
+				Count: 1
+				id: "supplementaries:bubble_blower"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "55D78556738BECFF"
+			tasks: [{
+				id: "63A8B6A4970F1F74"
+				item: {
+					Count: 1
+					id: "supplementaries:bubble_blower"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["10D8DDD65FCEAAEB"]
+			id: "0415BEAF3BAC7DDB"
+			tasks: [{
+				id: "2089AA3CB34C1D2F"
+				item: "supplementaries:bomb_spiky"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "1CC8B2E65C83266B"
+			tasks: [{
+				id: "7B0F2878F48F6486"
+				item: "supplementaries:flag_white"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "1AAE934BBF30CC8B"
+			tasks: [{
+				id: "6C429F2B3A28A6C3"
+				item: "supplementaries:bamboo_spikes"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["051ADB241B7C64EE"]
+			id: "3068EBD417631862"
+			tasks: [{
+				id: "2230B558482BBAFB"
+				item: "supplementaries:daub"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "0EAFE453AC241093"
+			tasks: [{
+				id: "6D072DACFA1D3F24"
+				item: "supplementaries:present"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "75EDD8645AF81AE8"
+			tasks: [{
+				id: "613911827772EA68"
+				item: "supplementaries:notice_board"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			id: "27488C7C4797D96C"
+			tasks: [{
+				id: "0AC40C39DF79FC79"
+				item: "supplementaries:antique_ink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "1CF69E887D13C933"
+			tasks: [{
+				id: "7DAF7FD38951CB91"
+				item: "supplementaries:safe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "10FA602B96ECC4B0"
+			tasks: [{
+				id: "111F295738D1ED79"
+				item: "supplementaries:candle_holder"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "744F68A60807C6EE"
+			tasks: [{
+				id: "7D7BDE7106343076"
+				item: "supplementaries:item_shelf"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "022ED1D554F4B164"
+			tasks: [{
+				id: "7D51F9D8F4673C38"
+				item: "supplementaries:goblet"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "04139C052204C850"
+			tasks: [{
+				id: "5E95515C574349B1"
+				item: "supplementaries:pulley_block"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			id: "145990C946592D02"
+			tasks: [{
+				id: "40427750269F15D8"
+				item: "supplementaries:statue"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			id: "5FF6BEDDB35C6062"
+			tasks: [{
+				icon: "supplementaries:urn"
+				id: "3D51092B44D6EEC4"
+				type: "custom"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "396AE4809D5DB4CA"
+			tasks: [{
+				id: "740B297A10FE81F5"
+				item: "supplementaries:hanging_sign_oak"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "755855B97C038AAF"
+			tasks: [{
+				id: "0E0A5D0D00C777F9"
+				item: "supplementaries:sign_post_oak"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "4BAA6944CAE41A54"
+			tasks: [{
+				id: "75A51FA47A030523"
+				item: {
+					Count: 1
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "7FB356E788E722C2"
+			tasks: [{
+				id: "006A85EE30FD6B8A"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "33B7815B4A561EB6"
+			tasks: [{
+				id: "6AACA03A29598407"
+				item: "supplementaries:relayer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "02C0D6592C04C9F8"
+			tasks: [{
+				id: "43D861F84D163784"
+				item: "supplementaries:spring_launcher"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "6EBCB19D304A80CC"
+			tasks: [{
+				id: "15BE57357DE36EB4"
+				item: "supplementaries:speaker_block"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			id: "61EC0D0327F5AA49"
+			tasks: [{
+				id: "062726EFF5EA360C"
+				item: "supplementaries:turn_table"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "39C72E14D10B00FF"
+			tasks: [{
+				id: "2A39AB1E65B8057A"
+				item: "supplementaries:redstone_illuminator"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "7A5B24D78481A819"
+			tasks: [{
+				id: "24E813BE915E48AD"
+				item: "supplementaries:lock_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "1EA5B9C9E8E4BDF5"
+			tasks: [{
+				id: "34956140FA513A72"
+				item: "supplementaries:bellows"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			id: "73D1497A3BC108F5"
+			tasks: [{
+				id: "3ABA0A6BF4438B7A"
+				item: "supplementaries:clock_block"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "065051CD84601DD9"
+			tasks: [{
+				id: "61DB8A82F003A288"
+				item: "supplementaries:sconce_lever"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "4C0912C38E5DF181"
+			tasks: [{
+				id: "613AC7F2EC9D300F"
+				item: "supplementaries:crank"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			id: "6FC71F7B33192104"
+			tasks: [{
+				id: "444B601624E09562"
+				item: "supplementaries:faucet"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "0288B492BEFB6AFA"
+			tasks: [{
+				id: "397A6DD216CDA5FE"
+				item: "supplementaries:iron_gate"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			id: "6A86870523B23816"
+			tasks: [{
+				id: "582152F48AE22713"
+				item: "supplementaries:crystal_display"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			id: "173A198C304460FF"
+			tasks: [{
+				id: "3F22FBE3F31914B8"
+				item: "supplementaries:lapis_bricks"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "3C06588A208F0237"
+			tasks: [{
+				id: "788878F3C6DD0654"
+				item: "supplementaries:blackstone_tile"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "56449B5C7FC29B03"
+			tasks: [{
+				id: "58D4CD0FBC0DD187"
+				item: "supplementaries:stone_lamp"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "2DFEC4FD50EF9800"
+			tasks: [{
+				id: "62341537BD9291C3"
+				item: "supplementaries:checker_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "7C98C5490A13951E"
+			tasks: [{
+				id: "7F153811E38CCB07"
+				item: "supplementaries:blackstone_lamp"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "Supplementaries"
+}

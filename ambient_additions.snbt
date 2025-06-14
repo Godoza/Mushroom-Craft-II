@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ambient_additions"
+	group: "3165B09BFA11B723"
+	icon: {
+		Count: 1
+		id: "ambientadditions:ducky_mask"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2647F5CA8590CA61"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "18D10C05300E8B5F"
+			rewards: [{
+				id: "0E97008DBACA7E83"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Welcome to Ambient Additions! In this mod you can catch and tame many new critters and creatures including mammals, birds, reptiles, fish, and more! Your first step in aquiring some new friends is to craft the appropriate transport vessels. These are flower pots, buckets, crates, bottles, and bowls!"
+			tasks: [{
+				id: "3247D202BE11FEB6"
+				title: "Animals Galore!"
+				type: "checkmark"
+			}]
+			title: "Gotta Catch 'Em All!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18D10C05300E8B5F"]
+			id: "2DA69EB30B123652"
+			rewards: [{
+				id: "28587C2F6B8C7E69"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Chum Bucket"
+			tasks: [{
+				id: "3574AF28B4DC018F"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18D10C05300E8B5F"]
+			id: "6372E5B165243FF9"
+			rewards: [{
+				id: "1F1D81BF4475D203"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Soiled it!"
+			tasks: [{
+				id: "7D3C9F9CDB1C624A"
+				item: "minecraft:flower_pot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18D10C05300E8B5F"]
+			id: "113BE3387D9B8F58"
+			rewards: [{
+				id: "3550950954A21F23"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Strike!"
+			tasks: [{
+				id: "79128343B35A9C57"
+				item: "minecraft:bowl"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18D10C05300E8B5F"]
+			id: "78C9DDE48EBA120F"
+			rewards: [{
+				id: "78DBC553F5040769"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Critter Crate"
+			tasks: [{
+				id: "24AA22C627C6924B"
+				item: "ambientadditions:crate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"113BE3387D9B8F58"
+				"468F42CE32B95A7D"
+				"2DA69EB30B123652"
+				"78C9DDE48EBA120F"
+				"6372E5B165243FF9"
+			]
+			description: ["Once you've aquired the &mfart&r er I mean &ldart&l &rgun, your next step is to craft darts! This can be accomplished using bamboo, a feather, and a spiders eye in an L shape in your inventory or crafting grid."]
+			id: "54AA18253BDCCDF5"
+			subtitle: "Blowguns don't sedate, darts do!"
+			tasks: [{
+				id: "6EA8A13C2F8C750E"
+				item: {
+					Count: 1
+					id: "ambientadditions:blowgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Nighty Night!"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["18D10C05300E8B5F"]
+			id: "468F42CE32B95A7D"
+			rewards: [{
+				id: "6A8008A6A764DDE6"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Bottle of Hopes and Dreams"
+			tasks: [{
+				id: "174E946A27B8141E"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54AA18253BDCCDF5"]
+			description: [
+				"Now with a dart, you can attempt to catch a creature! Darts work by inflicting a new status effect called stun. The more health the mob has, the more levels of stun you need in order to sedate the creature. Below is a helpful little guide to how many darts are needed to sedate a mob based on its health!"
+				""
+				"2.5 hearts = 1 stun"
+				"5 hearts = 2 stuns"
+				"10 hearts = 3 stuns"
+				"25 hearts = 4 stuns"
+				"25+ hearts = 5 stuns"
+			]
+			id: "5C76BA28AFE04833"
+			rewards: [{
+				id: "7B1F6100DFEDD5B0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "I thought you said fart gun!"
+			tasks: [{
+				id: "1AD53710A616322E"
+				item: "ambientadditions:dart"
+				type: "item"
+			}]
+			title: "Fart"
+			x: 0.0d
+			y: -6.5d
+		}
+	]
+	title: "Ambient Additions"
+}

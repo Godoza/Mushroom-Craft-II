@@ -1,0 +1,153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ftbquests"
+	group: ""
+	icon: "ftbquests:book"
+	id: "0F955B4E9839A01C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This is a modpack designed for peak comfy cozy vibes, but also some adventuring and looting! Here is a quest book that contains all of the necessary instructions to get you going as well as some bread to keep you going! When you right click your quest book, a menu will show up with quests on your left. When you click on the questlines, you are directed to nodes that contain information and instructions. Complete the quests for fun rewards! "]
+			id: "410D6226354E2E31"
+			rewards: [
+				{
+					id: "56F9CB865197F165"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "14AE65276723DF28"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Welcome To Mushroom Craft II! "
+			tasks: [{
+				id: "3BA19CCEF22C9B72"
+				title: "I am responsible for my own actions"
+				type: "checkmark"
+			}]
+			title: "Sign here please x....."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["410D6226354E2E31"]
+			description: ["It's also available in the top left of your inventory screen!"]
+			id: "356C069BB6FAFF60"
+			rewards: [{
+				id: "5F0EFC1A337D873B"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			subtitle: "Here's a free quest book if you ever misplace yours."
+			tasks: [{
+				id: "7618A0E42F23DF09"
+				title: "Here you dropped this:"
+				type: "checkmark"
+			}]
+			title: "Here King, you dropped this"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["410D6226354E2E31"]
+			description: ["The Antcyclopedia cannot be obtained through normal crafting, thus I am providing a way to aquire it for free. Antsportation is still realtively new and in early development so this may be fixed in the future. Now, henceforth and cause some mighty fine...&l&o&4 ANTICS&l&o&n"]
+			id: "3935C6505A0BEAA1"
+			rewards: [
+				{
+					id: "70FD16379A3F8DDB"
+					item: "akashictome:tome"
+					type: "item"
+				}
+				{
+					id: "02542C6584DD61FB"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "antsportation:antsportation"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B90F89D12FEB5BB"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "littlelogistics:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FEE988367A36B91"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "twilightdelight:twilight_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AE3C8B399D376DD"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "ad_astra:astrodux"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45CDEEFA06B0B565"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "dynamictrees:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4253BD0E34276474"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "12835DAD2F697EED"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "babyfat:the_book_of_baby_fat"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Additionally, If you would like to unify all of your guide books, here is your answer: the Akashic Tome. When combined with 1 guide book in a crafting table, it merges the two books. This can be repeated as many times as you want. To activate the Tome, simply right click the book you need. Once you're finished all you have to do is left click to turn it back into the Akashic Tome and then you can repeat the process for another book that is bound. This is also repeatable if you ever lose your tome. Just beware that if you do lose it, you will need to bind all the books again! "
+			tasks: [{
+				id: "56EBD65D0B7BDA1A"
+				title: "Aaaaaaaand sign here please X______"
+				type: "checkmark"
+			}]
+			title: "Don't lose this one!"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "Start Here!"
+}

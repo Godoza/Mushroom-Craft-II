@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mans_best_friends"
+	group: "5E49EAD2A45D42BD"
+	icon: "domesticationinnovation:collar_tag"
+	id: "247FDE6ADE51DA24"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "522E78D80B9AF4E1"
+			rewards: [{
+				id: "4F89B5639F895FA8"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Domestication Innovation brings to Minecraft a suite of methods to tame, breed, and otherwise care for your animals! There are also new items such as a command drum, deeds of ownership, and collars!"
+			tasks: [{
+				id: "4B7E050D8095C279"
+				title: "I *player* promise to be a good pet owner."
+				type: "checkmark"
+			}]
+			title: "Introduction To Pet Ownership"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["522E78D80B9AF4E1"]
+			id: "54A30D0E866F89E5"
+			rewards: [{
+				count: 3
+				id: "5FBAB5E0E91601DE"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "The collar is the first step in decking out your pets with the best bling you can muster."
+			tasks: [{
+				id: "581F2C6413AD8B4C"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			title: "First steps... or should i say *SITS*"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["522E78D80B9AF4E1"]
+			id: "531EF855A27BF555"
+			rewards: [{
+				count: 3
+				id: "3747657DB049C3EB"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "The feather on a stick helps get your pet out of strange or tough to reach places. When thrown (like a fishing rod) your pet will be attracted to the feather and start to play with it, thus luring them out of that one corner 4 blocks up in your house."
+			tasks: [{
+				id: "515C9AB00E7D5983"
+				item: {
+					Count: 1
+					id: "domesticationinnovation:feather_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["522E78D80B9AF4E1"]
+			id: "75D85A639891140F"
+			tasks: [{
+				icon: "domesticationinnovation:pet_bed_white"
+				id: "57BCFCCBD8BEB302"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "domesticationinnovation:pet_beds"
+					}
+				}
+				title: "Any #domesticationinnovation:pet_beds"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["522E78D80B9AF4E1"]
+			id: "5B6F1605868F9EEC"
+			rewards: [{
+				count: 3
+				id: "546EFE51791BAA04"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Are you a crazy cat lady? Do you own too many pets to count? Well do I have the deal of a life time for you! The command drum allows you to order all of the pets you own to either sit, wander, or follow. Can be used in conjunction with redstone as well."
+			tasks: [{
+				id: "7ECCDD819658D428"
+				item: "domesticationinnovation:drum"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["522E78D80B9AF4E1"]
+			id: "10B301871B25F9F9"
+			rewards: [{
+				count: 3
+				id: "37AF1681954A7526"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "The deed of ownership item can only be purchased from a animal tamer villager. When you right click an animal that you tamed, that animal is now bound to that deed. If given to another player who right clicks your animal, the ownership is transfered."
+			tasks: [{
+				id: "6E84409BE25EE095"
+				item: "domesticationinnovation:deed_of_ownership"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "526BDA2D231B9B8F"
+			rewards: [
+				{
+					count: 3
+					id: "1FD556D91D1F225B"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "40F303E08060E7E9"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Rotten apples rarely spawn when an apple despawns on the ground. Feed to your horse (if you're a monster) to turn them into a zombie horse."
+			tasks: [{
+				id: "259ED781B318784C"
+				item: "domesticationinnovation:rotten_apple"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "44281BE180483D02"
+			rewards: [
+				{
+					count: 5
+					id: "4B4804F1CE254928"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0B990825913852E2"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Rarely found in Woodland Mansions, Sinister Carrots have the ability to turn a zombie horse into a skeleton horse. They can also be fed to a rabbit to turn it into a killer rabbit!"
+			tasks: [{
+				id: "532D767F18E0AE2A"
+				item: "domesticationinnovation:sinister_carrot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+	title: "Man's Best Friend(s)?!"
+}

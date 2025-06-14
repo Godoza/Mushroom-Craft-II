@@ -1,0 +1,666 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "oh_the_biomes_youll_go"
+	group: "2348723DDEA00A7C"
+	icon: "biomeswevegone:foragers_table"
+	id: "5714C4F200529C76"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "08238C237F9BD81E"
+			rewards: [
+				{
+					count: 64
+					id: "752B167CC41EFF70"
+					item: "supplementaries:confetti_popper"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FDF4415D20B0483"
+					table_id: 1639111893817964316L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				advancement: "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone"
+				criterion: ""
+				id: "2DC13C5219411A23"
+				type: "advancement"
+			}]
+			title: "Visit All Biomes"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			icon: "biomeswevegone:white_allium_flower_bush"
+			id: "2B1140F6524FF3D7"
+			tasks: [{
+				biome: "byg:allium_fields"
+				icon: "minecraft:allium"
+				id: "4D804EED0DB3AD78"
+				type: "biome"
+			}]
+			title: "Allium Shrublands"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			icon: "biomeswevegone:flowering_barrel_cactus"
+			id: "79FB6C6497C9644D"
+			tasks: [{
+				biome: "byg:atacama_desert"
+				icon: "byg:golden_spined_cactus"
+				id: "4B55EA85BBB53EA1"
+				type: "biome"
+			}]
+			title: "Atacama Outback"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "543391004E3362B3"
+			tasks: [{
+				biome: "byg:bayou"
+				icon: "biomesoplenty:cattail"
+				id: "6E1C2A5B55502B06"
+				type: "biome"
+			}]
+			title: "Bayou"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "3D70DB4D13F28101"
+			tasks: [{
+				biome: "biomeswevegone:coconino_meadow"
+				icon: "biomeswevegone:alpine_bellflower"
+				id: "0C8C8C3E68B3DC89"
+				type: "biome"
+			}]
+			title: "Coconino Meadow"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "62CE6875B0BBFB3F"
+			tasks: [{
+				biome: "biomeswevegone:amaranth_grassland"
+				icon: "biomeswevegone:amaranth"
+				id: "1B38AE8E324D1EF1"
+				type: "biome"
+			}]
+			title: "Amaranth Grasslands"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			id: "64652F37ABFA20D7"
+			tasks: [{
+				biome: "biomeswevegone:araucaria_savanna"
+				icon: "immersive_weathering:grassy_earthen_clay"
+				id: "2D947B9EDE7EAC6C"
+				type: "biome"
+			}]
+			title: "Araucaria Savanna"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "5BFCB3ED468F48EF"
+			tasks: [{
+				biome: "biomeswevegone:aspen_boreal"
+				icon: "biomeswevegone:aspen_sapling"
+				id: "60703252163E840B"
+				title: "Aspen Boreal"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "61D46EA656A31F24"
+			tasks: [{
+				biome: "biomeswevegone:baobab_savanna"
+				icon: "biomeswevegone:baobab_fruit"
+				id: "51E97A14526571CD"
+				title: "Baobab Savanna"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "09659D237FFCCEA3"
+			tasks: [{
+				biome: "biomeswevegone:basalt_barrera"
+				icon: "minecraft:basalt"
+				id: "54B5E54A8DA91C75"
+				title: "Basalt Barrera"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "1BE8509A743AD4EF"
+			tasks: [{
+				biome: "biomeswevegone:black_forest"
+				icon: "minecraft:mossy_cobblestone"
+				id: "5ED91DE2A1EBB961"
+				title: "Black Forest"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "76DA2A4EB9036EF3"
+			tasks: [{
+				biome: "biomeswevegone:canadian_shield"
+				icon: "minecraft:snow_block"
+				id: "78E88023D94A7F51"
+				title: "Canadian Shield"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "7E27E17AA44E0FA9"
+			tasks: [{
+				biome: "biomeswevegone:cika_woods"
+				icon: "minecraft:podzol"
+				id: "742357A47A0EECE6"
+				title: "Cika Woods"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "4E58FBEFD5D5CFE2"
+			tasks: [{
+				biome: "biomesoplenty:coniferous_forest"
+				id: "28B52B1178D4D787"
+				type: "biome"
+			}]
+			title: "Coniferous Forest"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "70545C0CC7941093"
+			tasks: [{
+				biome: "biomeswevegone:crag_gardens"
+				icon: "biomeswevegone:overgrown_stone"
+				id: "588ACE98221D5772"
+				title: "Crag Gardens"
+				type: "biome"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "2838C91F177047FE"
+			tasks: [{
+				biome: "biomeswevegone:crimson_tundra"
+				icon: "biomeswevegone:red_spruce_sapling"
+				id: "4DCF8815D2E060EE"
+				title: "Crimson Tundra"
+				type: "biome"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "60F7B24454FD88A0"
+			tasks: [{
+				biome: "biomeswevegone:cypress_swamplands"
+				icon: "biomeswevegone:cypress_sapling"
+				id: "46F6213CC795886A"
+				title: "Cypress Swamplands"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "1C6C3D54B4E8950B"
+			tasks: [{
+				biome: "biomeswevegone:dacite_ridges"
+				icon: "biomeswevegone:podzol_dacite"
+				id: "1946DEA5914C3096"
+				title: "Dacite Ridges"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "27F1142E385B6C0C"
+			tasks: [{
+				biome: "biomeswevegone:dacite_shore"
+				icon: "biomeswevegone:dacite_cobblestone"
+				id: "0D81894A1CAA1F67"
+				title: "Dacite Shore"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "6954672AC1D5931B"
+			tasks: [{
+				biome: "biomeswevegone:dead_sea"
+				icon: "minecraft:pointed_dripstone"
+				id: "0A39EDA17F31F3D5"
+				title: "Dead Sea"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "2A4FAEC7112D17BF"
+			tasks: [{
+				biome: "biomeswevegone:ebony_woods"
+				icon: "biomeswevegone:ebony_sapling"
+				id: "2098CB1551FF240F"
+				title: "Ebony Woods"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "1166849398DE3E44"
+			tasks: [{
+				biome: "biomeswevegone:enchanted_tangle"
+				icon: "biomeswevegone:imbued_blue_enchanted_wood"
+				id: "3993B513FE96A3E2"
+				title: "Enchanted Tangle"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "38AA954E2D66A01A"
+			tasks: [{
+				biome: "biomeswevegone:eroded_borealis"
+				icon: "biomeswevegone:borealis_ice"
+				id: "7E63CFD562BC7C3F"
+				title: "Eroded Borealis"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "4833395DC39D72BC"
+			tasks: [{
+				biome: "biomeswevegone:firecracker_chaparral"
+				icon: "biomeswevegone:firecracker_flower_bush"
+				id: "11899898C07C3CA9"
+				title: "Firecracker Chaparral"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "12FA22ED582F02CD"
+			tasks: [{
+				biome: "biomeswevegone:forgotten_forest"
+				icon: "minecraft:glow_berries"
+				id: "52C72912E536450E"
+				title: "Forgotten Forest"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "165CBAD1475D6A10"
+			tasks: [{
+				biome: "biomeswevegone:fragment_jungle"
+				icon: "biomeswevegone:incan_lily"
+				id: "25A5E1C29C949AF8"
+				title: "Forgotten Jungle"
+				type: "biome"
+			}]
+			title: "Fragment Jungle"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "329C85E5D89FEBF1"
+			tasks: [{
+				biome: "biomeswevegone:frosted_coniferous_forest"
+				icon: "biomeswevegone:fir_sapling"
+				id: "3775FAC2D9F2EDA1"
+				title: "Frosted Coniferous Forest"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "41290BA778436603"
+			tasks: [{
+				biome: "biomeswevegone:frosted_taiga"
+				icon: "biomeswevegone:crocus"
+				id: "1B0BADC1B3BF40A7"
+				title: "Frosted Taiga"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "2B2DAB49FAB14D83"
+			tasks: [{
+				biome: "biomeswevegone:howling_peaks"
+				icon: "biomeswevegone:rocky_stone"
+				id: "4EA7D3FD57FBA0DA"
+				title: "Howling Peaks"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "3AAE5C7A2A3553AE"
+			tasks: [{
+				biome: "biomeswevegone:ironwood_gour"
+				icon: "biomeswevegone:wood_blewit"
+				id: "3F1260CFAE56F119"
+				title: "Ironwood Gour"
+				type: "biome"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "23E8D114E9830B71"
+			tasks: [{
+				biome: "biomeswevegone:jacaranda_jungle"
+				icon: "biomeswevegone:flowering_indigo_jacaranda_bush"
+				id: "385230167B26D669"
+				title: "Jacaranda Jungle"
+				type: "biome"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "088C6CCBCB4A245F"
+			tasks: [{
+				biome: "biomeswevegone:lush_stacks"
+				icon: "minecraft:clay"
+				id: "0EACC2DD31C4684B"
+				title: "Lush Stacks"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "5691521E8FC7CFE0"
+			tasks: [{
+				biome: "biomeswevegone:maple_taiga"
+				icon: "biomeswevegone:blue_sage"
+				id: "73EC035F29C97421"
+				title: "Maple Taiga"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "61A70C0E26509D04"
+			tasks: [{
+				biome: "biomeswevegone:mojave_desert"
+				icon: "biomeswevegone:cracked_sand"
+				id: "2F8A86B0087DEB5B"
+				title: "Mojave Desert"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "6E247061DA1E6B4E"
+			tasks: [{
+				biome: "biomeswevegone:orchard"
+				icon: "biomeswevegone:ripe_orchard_leaves"
+				id: "6C2DFCFAD00CB0FB"
+				title: "Orchard"
+				type: "biome"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "794FA86DC359FA88"
+			tasks: [{
+				biome: "biomeswevegone:overgrowth_woodlands"
+				icon: "biomeswevegone:peat"
+				id: "70E8766410B195EE"
+				title: "Overgrowth Woodlands"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "7F88E30EBF60115D"
+			tasks: [{
+				biome: "biomeswevegone:prairie"
+				icon: "biomeswevegone:tall_prairie_grass"
+				id: "3DDA6BDF12FFDBE7"
+				title: "Prairie"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "4577C127CC6E5898"
+			tasks: [{
+				biome: "biomeswevegone:pumpkin_valley"
+				icon: "minecraft:pumpkin"
+				id: "10C675CC3B01CCCF"
+				title: "Pumpkin Valley"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "45E19F240EA08B42"
+			tasks: [{
+				biome: "biomeswevegone:rainbow_beach"
+				icon: "biomeswevegone:pink_sand"
+				id: "1B464286AF66609D"
+				title: "Raindow Beach"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "39B9E212DD51542B"
+			tasks: [{
+				biome: "biomeswevegone:red_rock_valley"
+				icon: "minecraft:yellow_terracotta"
+				id: "1F953F13972533D3"
+				title: "Red Rock Valley"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "0A1FCD59985F09CD"
+			tasks: [{
+				biome: "biomeswevegone:redwood_thicket"
+				icon: "biomeswevegone:redwood_sapling"
+				id: "45549092B71832CA"
+				title: "Redwood Thicket"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "1AD400119FFD8D82"
+			tasks: [{
+				biome: "biomeswevegone:rose_fields"
+				icon: "minecraft:rose_bush"
+				id: "6B49B9C8C3BF647F"
+				title: "Rose Fields"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0B4E8787A3D0EFEE"
+			tasks: [{
+				biome: "biomeswevegone:rugged_badlands"
+				icon: "biomeswevegone:golden_spined_cactus"
+				id: "024296AD28614AE2"
+				title: "Rugged Badlands"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "6114523CA7F158E3"
+			tasks: [{
+				biome: "biomeswevegone:sakura_grove"
+				icon: "biomeswevegone:japanese_orchid"
+				id: "1831D41D96CD47F3"
+				title: "Sakura Grove"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "7CA7CE0018734BC3"
+			tasks: [{
+				biome: "biomeswevegone:shattered_glacier"
+				icon: "biomeswevegone:packed_black_ice"
+				id: "170AE553F3F36CD3"
+				title: "Shattered Glacier"
+				type: "biome"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "381182536D2B67EB"
+			tasks: [{
+				biome: "biomeswevegone:sierra_badlands"
+				icon: "minecraft:orange_terracotta"
+				id: "1B6980505BF3D79A"
+				title: "Sierra Badlands"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "1B5B8AEA48A990C2"
+			tasks: [{
+				biome: "biomeswevegone:skyrise_vale"
+				icon: "biomeswevegone:flowering_skyris_leaves"
+				id: "7A39F21F95CAB8CE"
+				title: "Skyrise Vale"
+				type: "biome"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "0ABDE88CB578838F"
+			tasks: [{
+				biome: "biomeswevegone:temperate_grove"
+				icon: "biomeswevegone:bistort"
+				id: "6E2B21D3BBB48C17"
+				title: "Temperate Grove"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "271820426F4ECB6F"
+			tasks: [{
+				biome: "biomeswevegone:tropical_rainforest"
+				icon: "immersive_weathering:loam"
+				id: "78FA4785CE4EF0F3"
+				title: "Tropical Rainforest"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "6710C0AA63A9395D"
+			tasks: [{
+				biome: "biomeswevegone:weeping_witch_forest"
+				icon: "biomeswevegone:witch_hazel_branch"
+				id: "71BFBBB78CBCFCC1"
+				title: "Weeping Witch Forest"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "38F54A55266B26F5"
+			tasks: [{
+				biome: "biomeswevegone:white_mangrove_marshes"
+				icon: "biomeswevegone:white_mangrove_sapling"
+				id: "7352AD9A898CEDBB"
+				title: "White Mangrove Marshes"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "1EA9B24EA862DEF6"
+			tasks: [{
+				biome: "biomeswevegone:windswept_desert"
+				icon: "biomeswevegone:windswept_sand"
+				id: "5EC4867206AE66DC"
+				title: "Windswept Desert"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "5EE72B15299B1C4C"
+			tasks: [{
+				biome: "biomeswevegone:zelkova_forest"
+				icon: "immersive_weathering:grassy_permafrost"
+				id: "649663E477A808BD"
+				title: "Zelkova Forest"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+	]
+	title: "Oh, The Biomes We've Gone!"
+}

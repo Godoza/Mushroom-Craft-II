@@ -1,0 +1,522 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cave_diving"
+	group: "2348723DDEA00A7C"
+	icon: "spelunkery:rope_ladder"
+	id: "56EBA2316E452162"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "19B814A6F0E9724F"
+			rewards: [
+				{
+					id: "2CF7B68675FB9087"
+					item: "spelunkery:rough_diamond_shard"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4A5C36919F2D4F69"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "In spelunkery, some ores like redstone and lapis will drop rough and unpolished ore. Take these rough ore to a grindstone for a nice bit of XP as well as your desired ores!"
+			tasks: [{
+				id: "1089A61628095649"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			title: "Grindstone"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19B814A6F0E9724F"]
+			id: "70835487DE362D9C"
+			rewards: [{
+				count: 5
+				id: "2A93A5C349D03300"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Some ore like diamond and emeralds need a stronger grindstone to polish. Try a diamond grindstone if your normal grindstone isnt... &bcutting it &r(pun intended)."
+			tasks: [{
+				id: "0BC1A132E0F1E714"
+				item: "spelunkery:diamond_grindstone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "6D8F15FE0F295E07"
+			subtitle: "Congrats! You found a nephrite geode. Collect as much as you can! Nephrite has a bunch of cool uses!"
+			tasks: [{
+				id: "342877B8A5022533"
+				item: "spelunkery:nephrite_chunk"
+				type: "item"
+			}]
+			title: "Geode!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F15FE0F295E07"]
+			id: "28AC6E9EE05E33BC"
+			subtitle: "Crafted by placing nephrite chunks in a 2x2. Used for many nephrite crafting recipes."
+			tasks: [{
+				id: "504613A97BD46D9B"
+				item: "spelunkery:nephrite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"28AC6E9EE05E33BC"
+				"00B979B35ACD61B3"
+			]
+			id: "2A340C39AB30F8BB"
+			subtitle: "Made by surrounding nephrite with a skulk block. Has the ability to store around 7 levels per block."
+			tasks: [{
+				id: "5E064108022C76F2"
+				item: "spelunkery:carved_nephrite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A340C39AB30F8BB"]
+			id: "793986C9BB9D1E89"
+			tasks: [{
+				id: "13913DF15D7799D8"
+				item: {
+					Count: 1
+					id: "spelunkery:nephrite_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "WIP NOT OBTAINABLE YET"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A340C39AB30F8BB"]
+			id: "0471BBEAD9291A8B"
+			subtitle: "Drains XP if crouched on."
+			tasks: [{
+				id: "58E1B9C2BCB87176"
+				item: "spelunkery:nephrite_siphon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0471BBEAD9291A8B"]
+			id: "07AF8A4AB7B65046"
+			subtitle: "Ejects XP when activated with redstone."
+			tasks: [{
+				id: "1802E2DF025B9677"
+				item: "spelunkery:nephrite_fountain"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0471BBEAD9291A8B"]
+			id: "4E164451310AF4E9"
+			tasks: [{
+				id: "7FCD5D797CE5F552"
+				item: "spelunkery:nephrite_diode"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "37AB31C5797B8EBB"
+			subtitle: "Climbable roots that are used to craft ladders"
+			tasks: [{
+				id: "68405E87F6C50E72"
+				item: "spelunkery:tangle_roots"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37AB31C5797B8EBB"]
+			id: "37884738C12C2ECC"
+			tasks: [{
+				id: "4EF573E426AC7B27"
+				item: "spelunkery:rope_ladder"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "67A46400E3F78AFC"
+			subtitle: "Utilized in the making of glowsticks!"
+			tasks: [
+				{
+					id: "477A918C490280AE"
+					item: "spelunkery:phosphor_fungus"
+					type: "item"
+				}
+				{
+					id: "4DE3F7BA69005DCB"
+					item: "spelunkery:mushgloom"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67A46400E3F78AFC"]
+			id: "018E84916E46B9E2"
+			tasks: [{
+				id: "63736E61D6A04A10"
+				item: "spelunkery:glowstick"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "00B979B35ACD61B3"
+			subtitle: "Crafted using 4 skulk veins obtained by shearing skulk. Used in nephrite crafting"
+			tasks: [{
+				id: "3859AB1FDDCBBA5B"
+				item: "minecraft:sculk"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "0F74F8417DAB5C06"
+			tasks: [{
+				id: "30127A8458FFD8DD"
+				item: "spelunkery:raw_magnetite_nugget"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F74F8417DAB5C06"]
+			id: "6EB4E57958724D82"
+			subtitle: "Can serve as a crafting ingredient cheaper than netherite in a lodestone. Also crafts the Item Magnet and Magnetic Compass"
+			tasks: [{
+				id: "0EB844B8CC7C8A5C"
+				item: "spelunkery:raw_magnetite"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6EB4E57958724D82"]
+			id: "10B7B887D16BF2FA"
+			subtitle: "Always points North. When right clicked, will display the players x and z coordinates. Will point to magnetite clusters if one is within a 128 block radius."
+			tasks: [{
+				id: "1678CA80A3A091AC"
+				item: {
+					Count: 1
+					id: "spelunkery:magnetic_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6EB4E57958724D82"]
+			id: "006CF1D6BC2B9B00"
+			subtitle: "When activated with Right Click, it will pull items towards the player within a radius. Can also be activated and placed in an item frame and will pull items towards said frame."
+			tasks: [{
+				id: "004E75BA3C9695BF"
+				item: {
+					Count: 1
+					id: "spelunkery:item_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "322A20B4BE6BCB78"
+			subtitle: "A low tier lootbox. When right clicked, the Dust Bun will be used and will drop a random mining item."
+			tasks: [{
+				id: "18121AC1EC989110"
+				item: "spelunkery:dust_bun"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "41FF7C382C89D49C"
+			rewards: [
+				{
+					id: "320BF4C69D0F902B"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "14A310A7857ADBDE"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "300C3A01B69E7B1F"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "MORE MUSHROOMS WEEEEEEEEE"
+			tasks: [
+				{
+					id: "02B915BBF791D509"
+					item: "spelunkery:portabella"
+					type: "item"
+				}
+				{
+					id: "03FF7A3EF2342695"
+					item: "spelunkery:crimini"
+					type: "item"
+				}
+				{
+					id: "6A8A3680DB0D1B53"
+					item: "spelunkery:button_mushroom"
+					type: "item"
+				}
+				{
+					id: "0FC732138F505278"
+					item: "spelunkery:conk_fungus"
+					type: "item"
+				}
+				{
+					id: "798CDEB80AFCD902"
+					item: "spelunkery:milly_bubcap"
+					type: "item"
+				}
+				{
+					id: "0A903BEC7159F4B1"
+					item: "spelunkery:inkcap_mushroom"
+					type: "item"
+				}
+				{
+					id: "0C00191551CF8494"
+					item: "spelunkery:white_inkcap_mushroom"
+					type: "item"
+				}
+				{
+					id: "027E7FEB8715DB46"
+					item: "spelunkery:mushgloom"
+					type: "item"
+				}
+				{
+					id: "1634388139B0B1B8"
+					item: "spelunkery:phosphor_fungus"
+					type: "item"
+				}
+			]
+			title: "Jr. Fungi Connoisseur"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "30C8B77358D9A850"
+			subtitle: "When in contact with Dimensional Tears, the player or mob teleports to their origin (bed, spawn, etc). This can cross dimensions helping you to get out of a tight bind."
+			tasks: [{
+				id: "642D3E0E12AA68B9"
+				item: {
+					Count: 1
+					id: "spelunkery:portal_fluid_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"30C8B77358D9A850"
+				"2DC570A15499D0D7"
+			]
+			description: ["With a bucket of dimensional tears, you can now fill a cauldron with it or other fluid storage mediums. You can also generate this liquid using a heated mixer (Create), filling it up with crying obsidian and glowstone."]
+			id: "64AE1E83CADEB3EA"
+			subtitle: "Bucket of Wet Slop. Grins."
+			tasks: [{
+				id: "795F4C0EF70EAFB8"
+				item: {
+					Count: 1
+					id: "spelunkery:portal_fluid_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "2DC570A15499D0D7"
+			subtitle: "Dimensional Tears are a liquid, meaning that they can be stored in a cauldron!"
+			tasks: [{
+				id: "7FDD60ADE82EAC17"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "1599C8A670DC5AFD"
+			tasks: [{
+				id: "39347395F4EADE7F"
+				item: {
+					Count: 1
+					id: "spelunkery:parachute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "62F64944D2782143"
+			subtitle: "Lower tier chisel. Used to convert brick blocks into their chiseled form."
+			tasks: [{
+				id: "4095A1166EBE1E37"
+				item: {
+					Count: 1
+					id: "spelunkery:flint_hammer_and_chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62F64944D2782143"]
+			id: "41B5B0D0FC930BF3"
+			subtitle: "Same uses as the flint chisel but with the addition of silk touch if mined."
+			tasks: [{
+				id: "1371AB1B74EC84AD"
+				item: {
+					Count: 1
+					id: "spelunkery:obsidian_hammer_and_chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "0F515D6C6B4A309E"
+			subtitle: "Essentially throwable TNT. Can also be placed."
+			tasks: [{
+				id: "780102B8C2D9012A"
+				item: "spelunkery:mineomite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F515D6C6B4A309E"]
+			id: "07EB9A24C3A0D07F"
+			tasks: [{
+				id: "45FB4CA93FF4B37B"
+				item: "spelunkery:compression_blast_miner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "5CCBCA0B75E97776"
+			subtitle: "Displays current elevation when right clicked."
+			tasks: [{
+				id: "47D02E2E602DADF7"
+				item: {
+					Count: 1
+					id: "spelunkery:depth_gauge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63B9E94B922B770D"]
+			id: "720FC9537BD31C53"
+			tasks: [{
+				id: "25683CDF9B5D35B2"
+				item: "spelunkery:tuning_fork"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C51F9295D4A49DF"]
+			id: "7DBD8D459DB4196B"
+			tasks: [{
+				id: "00E97C8D07EB7EFC"
+				item: "spelunkery:echo_fork"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			id: "0C51F9295D4A49DF"
+			subtitle: "Found in ancient cities."
+			tasks: [{
+				id: "10F577DCEFF233A4"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "63B9E94B922B770D"
+			tasks: [{
+				id: "5A33D71A6EEABE0D"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+	]
+	title: "Spelunkery"
+}

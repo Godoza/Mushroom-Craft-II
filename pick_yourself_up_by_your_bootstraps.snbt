@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pick_yourself_up_by_your_bootstraps"
+	group: "6363789AC36DA063"
+	icon: "minecraft:chest"
+	id: "4B9C21BF5DB49E49"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5CB7920B06C13FF0"
+		rewards: [
+			{
+				id: "124A99CE67967D7B"
+				item: "minecraft:chest"
+				type: "item"
+			}
+			{
+				id: "42FA910334B4656E"
+				item: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		subtitle: "Friendly reminder that this modpack has a mod that lets you pick up certain blocks and hold them in your hands. This is especially useful for redecorating a base/moving chests."
+		tasks: [{
+			id: "0D3B421DAB136E7B"
+			title: "pick yourself up placeholder"
+			type: "checkmark"
+		}]
+		title: "Pick yourself up!"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Pick Yourself Up By Your Bootstraps!"
+}
