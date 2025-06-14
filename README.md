@@ -19,18 +19,20 @@ Within this repository you can find categorized lists of each mod included in th
 - Performance and quality-of-life improvements
 
 ## Installation
-1. Download the modpack zip from [releases](LINK_HERE).
-2. Import into CurseForge, Prism, or MultiMC launcher.
-3. Play!
+
+  - Download the modpack from Curse Forge https://www.curseforge.com/minecraft/modpacks/mushroom-craft-2
+  - Play!
 
 ## Mod List
-See [Mods Categorized Mushroom World](Mods Categorized Mushroom World.txt) or browse by category in `/mods`.
+
+See https://github.com/Godoza/Mushroom-Craft-II/blob/main/Mods%20Categorized%20Mushroom%20World.txt
 
 ## Screenshots
-*(Add a few images here)*
+
+See https://cubeupload.com/codes/74d770
 
 ## Known Issues
-See [Known Issues](Known Issues).
+See Known_Issues.md
 
 ## FAQ
-See [FAQ](FAQ).
+See FAQ.md
