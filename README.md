@@ -1,14 +1,14 @@
-Documentation related to Godoza's Minecraft Modpack, "Mushroom World".
-This modpack is primarily designed to be fun. It has aspects that overlap genres such as exploration, combat, comfy asethetic, and creatures.
-Within this repository you can find categorized lists of each mod included in the modpack, as well as an faq and known issues page. Adding Resource Packs and Shaders at a later date to the github
+## Documentation related to Godoza's Minecraft Modpack, "Mushroom Craft II".
+
+
+This modpack is primarily designed to be fun. It has aspects that overlap genres such as exploration, combat, comfy asethetics, and cute creatures. 
 
 ## Table of Contents
 - [Features](#features)
 - [Mod List](#mod-list)
 - [Installation](#installation)
-- [Known Issues](https://github.com/Godoza/Mushroom-Craft-II/blob/main/Known%20Issues)
+- [Known Issues](#Known-Issues)
 - [FAQ](#faq)
--[Changelog] Changelog
 
 
 ## Features
