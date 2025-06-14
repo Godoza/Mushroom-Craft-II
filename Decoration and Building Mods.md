@@ -1,19 +1,20 @@
 Decoration & Building
-effortlessbuilding-1.20.1-3.10.jar
 
-domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar
+  -effortlessbuilding-1.20.1-3.10.jar
 
-immersive_paintings-0.6.7+1.20.1-forge.jar
+  -domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar
 
-immersive_melodies-0.5.0+1.20.1-forge.jar
+  -immersive_paintings-0.6.7+1.20.1-forge.jar
 
-visualworkbench-v8.0.0-1.20.1-Forge.jar
+  -immersive_melodies-0.5.0+1.20.1-forge.jar
 
-[DOLT] easel_does_it-1.20.1-1.0.7-all.jar
+  -visualworkbench-v8.0.0-1.20.1-Forge.jar
 
-craftingTweaks-forge-120.1-182.5.jar
+  -[DOLT] easel_does_it-1.20.1-1.0.7-all.jar
 
-Cupboard-1.20.1-2.7.jar
+  -craftingTweaks-forge-120.1-182.5.jar
 
-radiantgear-forge-2.2.0+120.1.jar
+  -Cupboard-1.20.1-2.7.jar
+
+  -radiantgear-forge-2.2.0+120.1.jar
 
