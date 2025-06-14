@@ -6,7 +6,7 @@ Within this repository you can find categorized lists of each mod included in th
 - [Features](#features)
 - [Mod List](#mod-list)
 - [Installation](#installation)
-- [Known Issues]([#known-issues](https://github.com/Godoza/Mushroom-Craft-II/blob/main/Known%20Issues))
+- [Known Issues](https://github.com/Godoza/Mushroom-Craft-II/blob/main/Known%20Issues)
 - [FAQ](#faq)
 -[Changelog] Changelog
 
