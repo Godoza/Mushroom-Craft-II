@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "critters_and_companions"
+	group: "3165B09BFA11B723"
+	id: "6D6A9FD7F711F105"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Critters and Companions"
+}

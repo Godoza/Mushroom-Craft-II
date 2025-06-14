@@ -1,0 +1,54 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eepy"
+	group: "5E49EAD2A45D42BD"
+	icon: "comforts:sleeping_bag_white"
+	id: "60E28A8FD96509A2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "30F888D740476878"
+			subtitle: "Sleeping bags are very useful for adventurers. It allows you to sleep through the night without resetting your spawn point."
+			tasks: [{
+				id: "05CCF3DD6E1D4BED"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			title: "Craft A Sleeping Bag"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "10867F4C839ECEC8"
+			subtitle: "Conversely, the hammock allows the player to sleep through the day. Good for taking a nap or mob farming at night."
+			tasks: [{
+				id: "6FE333EBBE7F060B"
+				item: "comforts:hammock_white"
+				type: "item"
+			}]
+			title: "Craft A Hammock"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "44E32213B8B9857F"
+			rewards: [{
+				id: "14A21361955E6413"
+				item: "comforts:rope_and_nail"
+				type: "item"
+			}]
+			subtitle: "This is a utility item that allows you to hang your hammock."
+			tasks: [{
+				id: "08F6DDB5D76FFD0B"
+				item: "comforts:rope_and_nail"
+				type: "item"
+			}]
+			title: "Craft a Rope and Nail"
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	title: "Comforts"
+}

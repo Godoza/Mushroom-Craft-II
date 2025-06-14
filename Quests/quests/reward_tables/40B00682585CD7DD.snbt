@@ -1,0 +1,15 @@
+{
+	icon: "minecraft:chest"
+	id: "40B00682585CD7DD"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:diamond" }
+		{ item: "minecraft:emerald" }
+		{ item: "minecraft:iron_ingot" }
+		{ item: "minecraft:copper_ingot" }
+		{ item: "minecraft:gold_ingot" }
+		{ item: "minecraft:netherite_ingot" }
+	]
+	title: "Chest"
+}

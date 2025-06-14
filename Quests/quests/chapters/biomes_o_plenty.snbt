@@ -1,0 +1,794 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "biomes_o_plenty"
+	group: "2348723DDEA00A7C"
+	icon: "biomesoplenty:rainbow_birch_sapling"
+	id: "45738B864FCC4822"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1E2CE333787CDC0D"
+			size: 2.0d
+			tasks: [{
+				biome: "biomesoplenty:all"
+				icon: "minecraft:compass"
+				id: "56BF396935A771D6"
+				type: "biome"
+			}]
+			title: "Visit All Biomes"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2F77B8D785F7461C"
+			tasks: [{
+				biome: "biomesoplenty:aspen_forest"
+				icon: "minecraft:birch_sapling"
+				id: "7AA8BBC4A581D758"
+				type: "biome"
+			}]
+			title: "Aspen Forest"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "2F5FEC27B5EC4F1C"
+			tasks: [{
+				biome: "biomesoplenty:auroral_garden"
+				icon: "biomesoplenty:rainbow_birch_leaves"
+				id: "704DF1333DAE222C"
+				type: "biome"
+			}]
+			title: "Auroral Garden"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "2D4EB37CA1D1478B"
+			tasks: [{
+				biome: "biomesoplenty:bamboo_grove"
+				icon: "minecraft:bamboo"
+				id: "1D51CF078A580F1E"
+				type: "biome"
+			}]
+			title: "Bamboo Grove"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "4A6EFB7A5B2A47C2"
+			tasks: [{
+				biome: "biomesoplenty:bayou"
+				icon: "minecraft:vine"
+				id: "76558A4740025620"
+				type: "biome"
+			}]
+			title: "Bayou"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "7B1F8A4D6C2A4F5C"
+			tasks: [{
+				biome: "biomesoplenty:bog"
+				icon: "minecraft:fern"
+				id: "34564789A0E8251A"
+				type: "biome"
+			}]
+			title: "Bog"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "6E2D4B8C5F2A4D7A"
+			tasks: [{
+				biome: "biomesoplenty:cherry_blossom_grove"
+				icon: "minecraft:pink_tulip"
+				id: "23EDE95D808394C4"
+				type: "biome"
+			}]
+			title: "Cherry Blossom Grove"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "5B6E7D8A3F2A4B7C"
+			tasks: [{
+				biome: "biomesoplenty:clover_patch"
+				icon: "minecraft:clay_ball"
+				id: "1DA46824453666E0"
+				type: "biome"
+			}]
+			title: "Clover Patch"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "6F2D8C4A5B3A4D7A"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				icon: "biomesoplenty:desert_grass"
+				id: "119173E94ACEE3F3"
+				type: "biome"
+			}]
+			title: "Cold Desert"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "2D05B84364C93B7D"
+			tasks: [{
+				biome: "biomesoplenty:coniferous_forest"
+				icon: "minecraft:spruce_sapling"
+				id: "6EC5809AB1249B95"
+				type: "biome"
+			}]
+			title: "Coniferous Forest"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "7A8C3B5F2A4D6E4A"
+			tasks: [{
+				biome: "biomesoplenty:crag"
+				icon: "minecraft:stone"
+				id: "6CA9928EAE6D26CF"
+				type: "biome"
+			}]
+			title: "Crag"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "6E4B3A7A5F2D8C7B"
+			tasks: [{
+				biome: "biomesoplenty:dead_forest"
+				icon: "minecraft:dead_bush"
+				id: "1E848689ABE251AD"
+				type: "biome"
+			}]
+			title: "Dead Forest"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "5A6C3D7A8F2D4B3E"
+			tasks: [{
+				biome: "biomesoplenty:dryland"
+				icon: "minecraft:sand"
+				id: "4CB8684B5056CC7A"
+				type: "biome"
+			}]
+			title: "Dryland"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "7D8C3A5B2F4E6D7A"
+			tasks: [{
+				biome: "biomesoplenty:dune_beach"
+				icon: "minecraft:sand"
+				id: "19015887286B07A9"
+				type: "biome"
+			}]
+			title: "Dune Beach"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "282C23B98E7381DF"
+			tasks: [{
+				biome: "biomesoplenty:field"
+				icon: "minecraft:grass_block"
+				id: "1FBB175BE11A14C0"
+				type: "biome"
+			}]
+			title: "Field"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "7B4D8A3C5F6E2D7A"
+			tasks: [{
+				biome: "biomesoplenty:fir_clearing"
+				icon: "minecraft:spruce_sapling"
+				id: "54609FBF1A3843C0"
+				type: "biome"
+			}]
+			title: "Fir Clearing"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "6D7A8C3B2F4E5A3D"
+			tasks: [{
+				biome: "biomesoplenty:floodplain"
+				icon: "minecraft:water_bucket"
+				id: "47902E02058FEBF0"
+				type: "biome"
+			}]
+			title: "Floodplain"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "5C7B3D8A6E2F4A7B"
+			tasks: [{
+				biome: "biomesoplenty:forested_field"
+				icon: "minecraft:grass_block"
+				id: "719416B125D98B7D"
+				type: "biome"
+			}]
+			title: "Forested Field"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "6A638AFD3661EEFA"
+			tasks: [{
+				biome: "biomesoplenty:fungal_jungle"
+				icon: "minecraft:warped_fungus"
+				id: "35AC0E64403C8632"
+				type: "biome"
+			}]
+			title: "Fungal Jungle"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "7A5C8D3B6E2F4A7B"
+			tasks: [{
+				biome: "biomesoplenty:grassland"
+				icon: "minecraft:grass_block"
+				id: "14C7BD50C66C9602"
+				type: "biome"
+			}]
+			title: "Grassland"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "2B39170CE650766E"
+			tasks: [{
+				biome: "biomesoplenty:highland"
+				icon: "minecraft:grass_block"
+				id: "2B82DDE8E5CD7EC7"
+				type: "biome"
+			}]
+			title: "Highland"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "6D7A5B8C3E2F4A7B"
+			tasks: [{
+				biome: "biomesoplenty:highland_moor"
+				icon: "minecraft:grass_block"
+				id: "1E1A3B13DE37043A"
+				type: "biome"
+			}]
+			title: "Highland Moor"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "5C7D8A3B6F2E4D7A"
+			tasks: [{
+				biome: "biomesoplenty:hot_springs"
+				icon: "minecraft:water_bucket"
+				id: "68B7EA014A69C3DD"
+				type: "biome"
+			}]
+			title: "Hot Springs"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "3D859C5175BD7DBD"
+			tasks: [{
+				biome: "biomesoplenty:jade_cliffs"
+				icon: "minecraft:stone"
+				id: "1C322058AA519084"
+				type: "biome"
+			}]
+			title: "Jade Cliffs"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "7A8D3C5B6F2E4D7A"
+			tasks: [{
+				biome: "biomesoplenty:lavender_field"
+				icon: "minecraft:purple_dye"
+				id: "384F2DC298B3D9BB"
+				type: "biome"
+			}]
+			title: "Lavender Field"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "0913A6BAF0294A5B"
+			tasks: [{
+				biome: "biomesoplenty:lavender_forest"
+				icon: "minecraft:purple_dye"
+				id: "4D19E53B42C58771"
+				type: "biome"
+			}]
+			title: "Lavender Forest"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "6D7A5C8B3E2F4D7A"
+			tasks: [{
+				biome: "biomesoplenty:lush_desert"
+				icon: "biomesoplenty:dune_grass"
+				id: "7F3187B15398BDD0"
+				type: "biome"
+			}]
+			title: "Lush Desert"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "4A84BB9FD15136BB"
+			tasks: [{
+				biome: "biomesoplenty:lush_savanna"
+				icon: "minecraft:grass_block"
+				id: "46974088981D757F"
+				type: "biome"
+			}]
+			title: "Lush Savanna"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "0A7B5A9D6D88F239"
+			tasks: [{
+				biome: "biomesoplenty:maple_woods"
+				icon: "minecraft:apple"
+				id: "1E7C485522D24160"
+				type: "biome"
+			}]
+			title: "Maple Woods"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "7D8A5C3B6F2E4D7A"
+			tasks: [{
+				biome: "biomesoplenty:marsh"
+				icon: "minecraft:grass_block"
+				id: "54104B6CC91F34D2"
+				type: "biome"
+			}]
+			title: "Marsh"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "19D824166C665FCB"
+			tasks: [{
+				biome: "biomesoplenty:mediterranean_forest"
+				icon: "minecraft:oak_sapling"
+				id: "22A9E905368D8E73"
+				type: "biome"
+			}]
+			title: "Mediterranean Forest"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "6D7A5C3B8F2E4D7A"
+			tasks: [{
+				biome: "biomesoplenty:muskeg"
+				icon: "minecraft:grass_block"
+				id: "391A4AFCEF4F5D36"
+				type: "biome"
+			}]
+			title: "Muskeg"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "5C8A7D3B6F2E4D7A"
+			tasks: [{
+				biome: "biomesoplenty:mystic_grove"
+				icon: "minecraft:glowstone"
+				id: "216CC90031375887"
+				type: "biome"
+			}]
+			title: "Mystic Grove"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "01E6EF46286D6A4B"
+			tasks: [{
+				biome: "biomesoplenty:old_growth_dead_forest"
+				icon: "minecraft:dead_bush"
+				id: "16CC474DF201B635"
+				type: "biome"
+			}]
+			title: "Old Growth Dead Forest"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "7D5C8A3B6F2E4D7A"
+			tasks: [{
+				biome: "biomesoplenty:old_growth_woodland"
+				icon: "minecraft:oak_sapling"
+				id: "7C345A7C41DE29BD"
+				type: "biome"
+			}]
+			title: "Old Growth Woodland"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "5D775F645C2E23A3"
+			tasks: [{
+				biome: "biomesoplenty:ominous_woods"
+				icon: "minecraft:dead_bush"
+				id: "6EFE1FFE05E4C66E"
+				type: "biome"
+			}]
+			title: "Ominous Woods"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "1A13387DC009A2B0"
+			tasks: [{
+				biome: "biomesoplenty:orchard"
+				icon: "minecraft:apple"
+				id: "1883CE10AD57005B"
+				type: "biome"
+			}]
+			title: "Orchard"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "466B1F9153700BAF"
+			tasks: [{
+				biome: "biomesoplenty:origin_valley"
+				icon: "minecraft:grass_block"
+				id: "0151A8FAB4F94381"
+				type: "biome"
+			}]
+			title: "Origin Valley"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "17D6EFAABDA5F331"
+			tasks: [{
+				biome: "biomesoplenty:pasture"
+				icon: "minecraft:hay_block"
+				id: "537258E80E6A2476"
+				type: "biome"
+			}]
+			title: "Pasture"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "1EF8F5EBC484FEA0"
+			tasks: [{
+				biome: "biomesoplenty:prairie"
+				icon: "minecraft:hay_block"
+				id: "58623B9472F61FDE"
+				type: "biome"
+			}]
+			title: "Prairie"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "038F86A74E07CE7D"
+			tasks: [{
+				biome: "biomesoplenty:pumpkin_patch"
+				icon: "minecraft:pumpkin"
+				id: "4EE4DDBE63B1998F"
+				type: "biome"
+			}]
+			title: "Pumpkin Patch"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "7A739410EA66B500"
+			tasks: [{
+				biome: "biomesoplenty:rainforest"
+				icon: "minecraft:small_dripleaf"
+				id: "2A3645104AC49FDB"
+				type: "biome"
+			}]
+			title: "Rainforest"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "3F4F98FB7487F7A2"
+			tasks: [{
+				biome: "biomesoplenty:redwood_forest"
+				icon: "minecraft:oak_sapling"
+				id: "23D3D8CB5A51BD8B"
+				type: "biome"
+			}]
+			title: "Redwood Forest"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "1958E4A87BDBDB5D"
+			tasks: [{
+				biome: "biomesoplenty:rocky_rainforest"
+				icon: "biomesoplenty:mahogany_sapling"
+				id: "7EE9B01AAF634488"
+				type: "biome"
+			}]
+			title: "Rocky Rainforest"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "3FA88F26BF614832"
+			tasks: [{
+				biome: "biomesoplenty:rocky_shrubland"
+				icon: "minecraft:cobblestone"
+				id: "6987A7DC4DC98318"
+				type: "biome"
+			}]
+			title: "Rocky Shrubland"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "11DBBB37834C32C6"
+			tasks: [{
+				biome: "biomesoplenty:scrubland"
+				icon: "minecraft:grass_block"
+				id: "2CA25483230E60E0"
+				type: "biome"
+			}]
+			title: "Scrubland"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "212BF770EF56FEF7"
+			tasks: [{
+				biome: "biomesoplenty:seasonal_forest"
+				icon: "minecraft:oak_sapling"
+				id: "5E5FD3626BC56C12"
+				type: "biome"
+			}]
+			title: "Seasonal Forest"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "7FEC4EA9816486AE"
+			tasks: [{
+				biome: "biomesoplenty:seasonal_orchard"
+				icon: "minecraft:apple"
+				id: "114A597812E04F04"
+				type: "biome"
+			}]
+			title: "Seasonal Orchard"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "21D5DC73CA342C66"
+			tasks: [{
+				biome: "biomesoplenty:shrubland"
+				icon: "minecraft:grass_block"
+				id: "2A233072A1A5908E"
+				type: "biome"
+			}]
+			title: "Shrubland"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "63385235F78D6767"
+			tasks: [{
+				biome: "biomesoplenty:snowblossom_grove"
+				icon: "minecraft:snowball"
+				id: "666F1D36C14369CD"
+				type: "biome"
+			}]
+			title: "Snowblossom Grove"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "68C4986BA7DFFA74"
+			tasks: [{
+				biome: "biomesoplenty:snowy_coniferous_forest"
+				icon: "minecraft:spruce_sapling"
+				id: "77D1EE218B2DC0DB"
+				type: "biome"
+			}]
+			title: "Snowy Coniferous Forest"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "2789350E285097C7"
+			tasks: [{
+				biome: "biomesoplenty:snowy_fir_clearing"
+				icon: "minecraft:spruce_sapling"
+				id: "3EF6C015615C0761"
+				type: "biome"
+			}]
+			title: "Snowy Fir Clearing"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "65472CC097BA48D0"
+			tasks: [{
+				biome: "biomesoplenty:snowy_maple_woods"
+				icon: "minecraft:apple"
+				id: "63DA786E5AA44800"
+				type: "biome"
+			}]
+			title: "Snowy Maple Woods"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "65344ABFF79515AE"
+			tasks: [{
+				biome: "biomesoplenty:tropics"
+				icon: "biomesoplenty:palm_sapling"
+				id: "3FAAE3C8EDFE329F"
+				type: "biome"
+			}]
+			title: "Tropics"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "75DD8476AF41D796"
+			tasks: [{
+				biome: "biomesoplenty:tundra"
+				icon: "minecraft:snowball"
+				id: "641E15C0EAED22F9"
+				type: "biome"
+			}]
+			title: "Tundra"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "3F52A6475C2567F6"
+			tasks: [{
+				biome: "biomesoplenty:volcanic_plains"
+				icon: "minecraft:basalt"
+				id: "6BBE9941493BF450"
+				type: "biome"
+			}]
+			title: "Volcanic Plains"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "3FB43101EA2846E8"
+			tasks: [{
+				biome: "biomesoplenty:volcano"
+				icon: "minecraft:magma_block"
+				id: "7CF16E8698622EC3"
+				type: "biome"
+			}]
+			title: "Volcano"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "0EB91B895EA141F5"
+			tasks: [{
+				biome: "biomesoplenty:wasteland"
+				icon: "minecraft:grass_block"
+				id: "76BA4991CCF33116"
+				type: "biome"
+			}]
+			title: "Wasteland"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "08F95D1A0F2F4A30"
+			tasks: [{
+				biome: "biomesoplenty:wetland"
+				icon: "minecraft:water_bucket"
+				id: "1E10CE322E81DFBC"
+				type: "biome"
+			}]
+			title: "Wetland"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "2C5EF0D72CB01700"
+			tasks: [{
+				biome: "biomesoplenty:woodland"
+				icon: "minecraft:oak_sapling"
+				id: "2ED2FBBABE188D52"
+				type: "biome"
+			}]
+			title: "Woodland"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "123EBCE9E41C1BE3"
+			tasks: [{
+				biome: "biomesoplenty:crystalline_chasm"
+				icon: "minecraft:amethyst_block"
+				id: "0FFBB20338701A2B"
+				type: "biome"
+			}]
+			title: "Crystalline Chasm"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "07A6BF8E325D621B"
+			tasks: [{
+				biome: "biomesoplenty:erupting_inferno"
+				icon: "minecraft:magma_block"
+				id: "69A8FCAED26BC8B1"
+				type: "biome"
+			}]
+			title: "Erupting Inferno"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "3300B4340ED024DE"
+			tasks: [{
+				biome: "biomesoplenty:undergrowth"
+				icon: "minecraft:nether_wart"
+				id: "685C7D53C1B3C54A"
+				type: "biome"
+			}]
+			title: "Undergrowth"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "79510A023D71446E"
+			tasks: [{
+				biome: "biomesoplenty:visceral_heap"
+				icon: "minecraft:rotten_flesh"
+				id: "40DFB7715D432817"
+				type: "biome"
+			}]
+			title: "Visceral Heap"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "28BF0915B7788747"
+			tasks: [{
+				biome: "biomesoplenty:withered_abyss"
+				icon: "minecraft:obsidian"
+				id: "2655F127E925C117"
+				type: "biome"
+			}]
+			title: "Withered Abyss"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Biomes O' Plenty"
+}

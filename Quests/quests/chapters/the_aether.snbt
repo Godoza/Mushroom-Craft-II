@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "2348723DDEA00A7C"
+	id: "6E24C03E16261105"
+	order_index: 11
+	quest_links: [ ]
+	quests: [{
+		id: "52CDE61C14FCA578"
+		tasks: [{
+			id: "586AF4BBDE09B64B"
+			title: "Aether Placeholder"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "The Aether WIP"
+}

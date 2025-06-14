@@ -1,0 +1,25 @@
+{
+	icon: "minecraft:chest"
+	id: "3F9768A957D62DCC"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "botania:white_petal" }
+		{ item: "botania:light_gray_petal" }
+		{ item: "botania:gray_petal" }
+		{ item: "botania:black_petal" }
+		{ item: "botania:brown_petal" }
+		{ item: "botania:red_petal" }
+		{ item: "botania:orange_petal" }
+		{ item: "botania:yellow_petal" }
+		{ item: "botania:lime_petal" }
+		{ item: "botania:green_petal" }
+		{ item: "botania:cyan_petal" }
+		{ item: "botania:light_blue_petal" }
+		{ item: "botania:blue_petal" }
+		{ item: "botania:purple_petal" }
+		{ item: "botania:magenta_petal" }
+		{ item: "botania:pink_petal" }
+	]
+	title: "Botania_Petals"
+}

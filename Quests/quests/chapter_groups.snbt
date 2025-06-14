@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "2348723DDEA00A7C", title: "Exploration" }
+		{ id: "5E49EAD2A45D42BD", title: "Homesteading" }
+		{ id: "7802F4E900EFEA77", title: "Technology" }
+		{ id: "34FFAEA49F77A126", title: "Dimensions" }
+		{ id: "6363789AC36DA063", title: "Misc" }
+		{ id: "12DF1CE6770B9CD0", title: "Magik" }
+		{ id: "3165B09BFA11B723", title: "Lil Guys" }
+	]
+}

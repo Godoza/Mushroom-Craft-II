@@ -1,0 +1,146 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "totemic"
+	group: "12DF1CE6770B9CD0"
+	id: "19D6DE07AF7E92C4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "3366EA3649CBBA16"
+			tasks: [{
+				id: "261899476CBD4744"
+				item: "totemic:totemic_staff"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "46D3ECC2A9C4F682"
+			tasks: [{
+				id: "7F22528F5DF6D731"
+				item: "totemic:flute"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "29BBB9F1F94251ED"
+			tasks: [{
+				id: "7890C3460727D144"
+				item: {
+					Count: 1
+					id: "totemic:totem_whittling_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "50BBA44C89D6DA4C"
+			tasks: [{
+				id: "6B9C7A3B22DD86C5"
+				item: "totemic:totem_torch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "42B8D9C179ACEE6D"
+			tasks: [{
+				id: "3FD3A9B912EBC5EB"
+				item: "totemic:drum"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "1C2197D5CE956A22"
+			tasks: [{
+				id: "24D676E12D63DC4C"
+				item: "totemic:totem_base"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "4F96FCC83E81967F"
+			tasks: [{
+				id: "19583EFCA9262B17"
+				item: "totemic:tipi"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "099AD145760F5FBA"
+			tasks: [{
+				id: "15DF637F8EDD2742"
+				item: "totemic:iron_bells"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["099AD145760F5FBA"]
+			id: "3869183FB1E905A3"
+			tasks: [{
+				id: "33B0C930272A2A7A"
+				item: {
+					Count: 1
+					id: "totemic:jingle_dress"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "0565C2FB77B9282C"
+			subtitle: "Welcome to Totemic! A mod all about nature, music, and of course, Totem Poles!"
+			tasks: [{
+				id: "3A7C52A34D1B677C"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "totemic:totempedia"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46D3ECC2A9C4F682"]
+			id: "44F9684381F8DDC9"
+			subtitle: "Obtain Pan's Flute by performing the Serenade for Syrinx"
+			tasks: [{
+				id: "763F2FE82D0F0502"
+				item: "totemic:infused_flute"
+				type: "item"
+			}]
+			title: "Serenade for Syrinx"
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	title: "Totemic"
+}

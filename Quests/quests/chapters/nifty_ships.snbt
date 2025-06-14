@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nifty_ships"
+	group: "2348723DDEA00A7C"
+	icon: "alekiships:anchor"
+	id: "755B2F90A8328E4C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1136CC2DB4B19265"
+			rewards: [{
+				count: 12
+				id: "2ABF61DC059A19B1"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "4AC3C6690C085F3A"
+				item: "alekiships:watercraft_frame_angled"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"62008660E9D5D8FD"
+				"1136CC2DB4B19265"
+				"1182E3CFD9EF55D0"
+			]
+			id: "112E49BB7E53109F"
+			tasks: [{
+				advancement: "alekiships:rowboat_completed"
+				criterion: ""
+				id: "461B0D82828FFACC"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "366FA248D74B9FD9"
+			tasks: [{
+				id: "56A15EB4CC4B6F7C"
+				item: "alekiships:watercraft_frame_flat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "62008660E9D5D8FD"
+			tasks: [{
+				count: 2L
+				id: "457E6B2D414BC25C"
+				item: "alekiships:oarlock"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["112E49BB7E53109F"]
+			id: "2A9206DA0029B179"
+			tasks: [{
+				advancement: "alekiships:sloop_completed"
+				criterion: ""
+				id: "2E158DC07E615AFA"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "1182E3CFD9EF55D0"
+			tasks: [{
+				count: 24L
+				id: "705D3D832D001FE2"
+				item: { Count: 20, id: "minecraft:oak_planks" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "10B4A8A9E19300CA"
+			tasks: [{
+				advancement: "alekiships:cannon"
+				criterion: ""
+				id: "164F511E05F1C3F5"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "6604199E86A6135B"
+			tasks: [{
+				advancement: "alekiships:ride_barrel"
+				criterion: ""
+				id: "2FF894805555E002"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "4E5AD7F3D0E5E8F9"
+			tasks: [{
+				id: "46465E5198A14B15"
+				item: "minecraft:armor_stand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4E5AD7F3D0E5E8F9"]
+			id: "33A9DD14DC180905"
+			tasks: [{
+				advancement: "alekiships:armor_stand_on_boat"
+				criterion: ""
+				id: "0022EE85BE74A473"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "Nifty Ships"
+}

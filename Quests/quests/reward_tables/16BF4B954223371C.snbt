@@ -1,0 +1,86 @@
+{
+	icon: "minecraft:chest"
+	id: "16BF4B954223371C"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:bagpipe"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:didgeridoo"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:flute"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:lute"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:piano"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:triangle"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:trumpet"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:tiny_drum"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:vielle"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:ender_bass"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:handpan"
+				tag: { }
+			}
+		}
+	]
+	title: "Musical_Melodies"
+}
