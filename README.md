@@ -3,13 +3,6 @@
 
 This modpack is primarily designed to be fun. It has aspects that overlap genres such as exploration, combat, comfy asethetics, and cute creatures. 
 
-## Table of Contents
-- [Features](#features)
-- [Mod List](#mod-list)
-- [Installation](#installation)
-- [Known Issues](#Known-Issues)
-- [FAQ](#faq)
-
 
 ## Features
 - Unique world generation and new biomes
@@ -25,7 +18,7 @@ This modpack is primarily designed to be fun. It has aspects that overlap genres
 
 ## Mod List
 
-See https://github.com/Godoza/Mushroom-Craft-II/blob/main/Mods%20Categorized%20Mushroom%20World.txt
+See `Mods Categorized Mushroom World.txt` (Mods%20Categorized%20Mushroom%20World.txt)
 
 ## Screenshots
 
