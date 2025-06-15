@@ -8,8 +8,11 @@ This modpack is primarily designed to be fun. It has aspects that overlap genres
 - Unique world generation and new biomes
 - Dozens of new structures and dungeons
 - Extensive farming, food, and animal mods
-- Questing, progression, and adventure content
-- Performance and quality-of-life improvements
+- Magic and power stemming from nature
+- Primitive vehicular transport
+- Questing, progression, and skill trees
+- Performance and quality of life improvements
+- Creature taming, pets, and an overall comfy cottage-core vibe
 
 ## Installation
 
@@ -22,10 +25,10 @@ See [`Mods Categorized Mushroom World.txt`](Mods%20Categorized%20Mushroom%20Worl
 
 ## Screenshots
 
-See https://cubeupload.com/codes/74d770
+See: https://cubeupload.com/codes/74d770
 
 ## Known Issues
-See Known_Issues.md
+See: [`Known Issues.md`](Known%20Issues.md)
 
 ## FAQ
-See FAQ.md
+See: [`FAQ.md`](FAQ.md)
