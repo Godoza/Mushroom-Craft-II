@@ -18,7 +18,7 @@ This modpack is primarily designed to be fun. It has aspects that overlap genres
 
 ## Mod List
 
-See `Mods Categorized Mushroom World.txt` (Mods%20Categorized%20Mushroom%20World.txt)
+See [`Mods Categorized Mushroom World.txt`](Mods%20Categorized%20Mushroom%20World.txt)
 
 ## Screenshots
 
