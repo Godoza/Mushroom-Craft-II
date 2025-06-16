@@ -18,6 +18,7 @@ This modpack is primarily designed to be fun. It has aspects that overlap genres
 
   - Download the modpack from Curse Forge https://www.curseforge.com/minecraft/modpacks/mushroom-craft-2
   - Play!
+  - I highly recommend dedicating a decent amount of ram for a single-player world (4-10gb) as well as playing with DH settings and other quality/general settings through the given modded menus via video settings.
 
 ## Mod List
 
